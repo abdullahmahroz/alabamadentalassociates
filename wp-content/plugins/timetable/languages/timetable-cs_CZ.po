@@ -1,0 +1,1763 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Timetable for WordPress\n"
+"POT-Creation-Date: 2018-07-03 10:58+0100\n"
+"PO-Revision-Date: 2018-07-03 10:58+0100\n"
+"Last-Translator: \n"
+"Language-Team: QuanticaLabs\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__;_n;_x;_ex;_nx;esc_attr__;esc_attr_e;esc_attr_x;"
+"esc_html__;esc_html_e;esc_html_x;_n_noop;_nx_noop\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin-page-email-config.php:2
+msgid "Email configuration"
+msgstr ""
+
+#: admin-page-email-config.php:10
+msgid "Admin email"
+msgstr ""
+
+#: admin-page-email-config.php:15
+msgid "Admin SMTP (optional)"
+msgstr ""
+
+#: admin-page-email-config.php:20
+msgid "Email template for client"
+msgstr ""
+
+#: admin-page-email-config.php:25
+msgid "Email template for admin"
+msgstr ""
+
+#: admin-page-email-config.php:35 timetable.php:1386
+msgid "Name"
+msgstr ""
+
+#: admin-page-email-config.php:48
+msgid "Email"
+msgstr ""
+
+#: admin-page-email-config.php:61
+msgid "Debug"
+msgstr ""
+
+#: admin-page-email-config.php:66 admin-page.php:268 admin-page.php:284
+#: admin-page.php:300 admin-page.php:335 admin-page.php:351 admin-page.php:410
+#: admin-page.php:427 admin-page.php:460 admin-page.php:476 admin-page.php:492
+#: admin-page.php:846 admin-page.php:863 admin-page.php:905 admin-page.php:922
+#: admin-page.php:938 admin-page.php:953 admin-page.php:969 admin-page.php:985
+#: admin-page.php:1001 post-type-events.php:518 shortcode-timetable.php:1564
+#: shortcode-timetable.php:1574 shortcode-timetable.php:1584
+#: shortcode-timetable.php:1607 shortcode-timetable.php:1617
+#: shortcode-timetable.php:1652 shortcode-timetable.php:1663
+#: shortcode-timetable.php:1684 shortcode-timetable.php:1694
+#: shortcode-timetable.php:1704 shortcode-timetable.php:1922
+#: shortcode-timetable.php:1933 shortcode-timetable.php:1959
+#: shortcode-timetable.php:1971 shortcode-timetable.php:1986
+#: shortcode-timetable.php:2000 shortcode-timetable.php:2015
+#: shortcode-timetable.php:2030 shortcode-timetable.php:2045
+msgid "No"
+msgstr "Ne"
+
+#: admin-page-email-config.php:67 admin-page.php:269 admin-page.php:285
+#: admin-page.php:301 admin-page.php:336 admin-page.php:352 admin-page.php:411
+#: admin-page.php:426 admin-page.php:461 admin-page.php:477 admin-page.php:493
+#: admin-page.php:906 admin-page.php:921 admin-page.php:937 admin-page.php:954
+#: admin-page.php:970 admin-page.php:986 admin-page.php:1002
+#: post-type-events.php:519 shortcode-timetable.php:1565
+#: shortcode-timetable.php:1575 shortcode-timetable.php:1585
+#: shortcode-timetable.php:1608 shortcode-timetable.php:1618
+#: shortcode-timetable.php:1653 shortcode-timetable.php:1662
+#: shortcode-timetable.php:1685 shortcode-timetable.php:1695
+#: shortcode-timetable.php:1705 shortcode-timetable.php:1960
+#: shortcode-timetable.php:1970 shortcode-timetable.php:1985
+#: shortcode-timetable.php:2001 shortcode-timetable.php:2016
+#: shortcode-timetable.php:2031 shortcode-timetable.php:2046
+msgid "Yes"
+msgstr "Ano"
+
+#: admin-page-email-config.php:71
+msgid ""
+"If debug is enabled, then additional information will be displayed in the "
+"booking pop-up."
+msgstr ""
+
+#: admin-page-email-config.php:88
+msgid "Host"
+msgstr ""
+
+#: admin-page-email-config.php:101
+msgid "Username"
+msgstr ""
+
+#: admin-page-email-config.php:114
+msgid "Password"
+msgstr ""
+
+#: admin-page-email-config.php:127
+msgid "Port"
+msgstr ""
+
+#: admin-page-email-config.php:140
+msgid "SMTP Secure"
+msgstr ""
+
+#: admin-page-email-config.php:146
+msgid "ssl"
+msgstr ""
+
+#: admin-page-email-config.php:147
+msgid "tls"
+msgstr ""
+
+#: admin-page-email-config.php:168 admin-page-email-config.php:204
+msgid "Email subject"
+msgstr ""
+
+#: admin-page-email-config.php:180 admin-page-email-config.php:216
+msgid "Available placeholders:"
+msgstr ""
+
+#: admin-page-event-post-type.php:2
+#, fuzzy
+msgid "Events post type configuration"
+msgstr "Hlavní konfigurace"
+
+#: admin-page-event-post-type.php:9
+#, fuzzy
+msgid "Event slug: "
+msgstr "Události"
+
+#: admin-page-event-post-type.php:17
+msgid "Event label singular: "
+msgstr ""
+
+#: admin-page-event-post-type.php:25
+msgid "Event label plural: "
+msgstr ""
+
+#: admin-page-event-post-type.php:34 admin-page.php:45 admin-page.php:1152
+msgid "Save"
+msgstr ""
+
+#: admin-page-import-dummy-data.php:2
+msgid "Timetable Dummy Content"
+msgstr "Dummy obsah rozvrhu"
+
+#: admin-page-import-dummy-data.php:5
+msgid "Import dummy content"
+msgstr "Import dummy obsahu"
+
+#: admin-page.php:2
+msgid "Timetable Shortcode Generator"
+msgstr "Generátor shortcode pro rozvrh"
+
+#: admin-page.php:9
+msgid "Choose shortcode id: "
+msgstr ""
+
+#: admin-page.php:13 shortcode-timetable.php:1362
+msgid "choose..."
+msgstr ""
+
+#: admin-page.php:26
+msgid "Delete this shortcode"
+msgstr ""
+
+#: admin-page.php:31
+msgid "Or type new shortcode id *"
+msgstr ""
+
+#: admin-page.php:34
+msgid ""
+"Please use only listed characters: letters, numbers, hyphen(-) and "
+"underscore(_)"
+msgstr ""
+
+#: admin-page.php:35
+msgid "Unique identifier for timetable shortcode."
+msgstr ""
+
+#: admin-page.php:43 admin-page.php:1151
+msgid "Copy to Clipboard"
+msgstr "Kopírovat do schránky"
+
+#: admin-page.php:46 admin-page.php:1153
+msgid "Shortcode has been copied to clipboard!"
+msgstr "Shortcode byl nakopírován do schránky!"
+
+#: admin-page.php:54
+msgid "Main configuration"
+msgstr "Hlavní konfigurace"
+
+#: admin-page.php:59
+msgid "Colors"
+msgstr "Barvy"
+
+#: admin-page.php:64
+msgid "Fonts"
+msgstr "Písma"
+
+#: admin-page.php:69 bookings-list.class.php:7 bookings-list.class.php:162
+msgid "Booking"
+msgstr ""
+
+#: admin-page.php:74 admin-page.php:1138 shortcode-timetable.php:2122
+msgid "Custom CSS"
+msgstr "Vlastní CSS"
+
+#: admin-page.php:84 shortcode-timetable.php:1464 timetable.php:1151
+msgid "Events"
+msgstr "Události"
+
+#: admin-page.php:93
+msgid ""
+"Select the events that are to be displayed in timetable. Hold the CTRL key "
+"to select multiple items."
+msgstr ""
+"Vyberte události, které mají být zobrazené v rozvrhu. Přidržte klávesu CTRL "
+"pro výběr více položek."
+
+#: admin-page.php:99 shortcode-timetable.php:1471
+msgid "Event categories"
+msgstr "Kategorie události"
+
+#: admin-page.php:108
+msgid ""
+"Select the events categories that are to be displayed in timetable. Hold the "
+"CTRL key to select multiple items."
+msgstr ""
+"Vyberte kategorie událostí, které mají být zobrazené v rozvrhu. Přidržte "
+"klávesu CTRL pro výběr více položek."
+
+#: admin-page.php:114 shortcode-timetable.php:1478
+#: widget-upcoming-events.php:348
+msgid "Hour categories"
+msgstr "Kategorie hodin"
+
+#: admin-page.php:126
+msgid ""
+"Select the hour categories (if defined for existing event hours) for events "
+"that are to be displayed in timetable. Hold the CTRL key to select multiple "
+"items."
+msgstr ""
+"Vyberte kategorie hodin (pokud jsou definované pro existující kategorie "
+"hodin) pro události, které mají být zobrazené v rozvrhu. Přidržte klávesu "
+"CTRL pro výběr více položek."
+
+#: admin-page.php:132 shortcode-timetable.php:1485
+msgid "Columns"
+msgstr "Sloupce"
+
+#: admin-page.php:141
+msgid ""
+"Select the columns that are to be displayed in timetable. Hold the CTRL key "
+"to select multiple items."
+msgstr ""
+"Vyberte sloupce, které mají být zobrazené v rozvrhu. Přidržte klávesu CTRL "
+"pro výběr více položek."
+
+#: admin-page.php:147 shortcode-timetable.php:1492
+msgid "Hour measure"
+msgstr "Časové měřítko"
+
+#: admin-page.php:152 shortcode-timetable.php:1495
+msgid "Hour (1h)"
+msgstr "Hodina (1h)"
+
+#: admin-page.php:153 shortcode-timetable.php:1496
+msgid "Half hour (30min)"
+msgstr "Půl hodiny (30min)"
+
+#: admin-page.php:154 shortcode-timetable.php:1497
+msgid "Quarter hour (15min)"
+msgstr "Čtvrt hodiny (15min)"
+
+#: admin-page.php:158
+msgid "Choose hour measure for event hours."
+msgstr "Zvolte časové měřítko pro hodiny události."
+
+#: admin-page.php:164 shortcode-timetable.php:1503
+msgid "Filter style"
+msgstr "Způsob filtrování"
+
+#: admin-page.php:169 shortcode-timetable.php:1506
+msgid "Dropdown list"
+msgstr "Rozbalovací menu"
+
+#: admin-page.php:170 shortcode-timetable.php:1507
+msgid "Tabs"
+msgstr "Záložky"
+
+#: admin-page.php:174
+msgid "Choose between dropdown menu and tabs for event filtering."
+msgstr "Zvolte, jak filtrovat události. Pomocí rolovacího menu nebo záložek."
+
+#: admin-page.php:180 shortcode-timetable.php:1513
+msgid "Filter kind"
+msgstr "Druh filtrování"
+
+#: admin-page.php:185 shortcode-timetable.php:1516
+msgid "By event"
+msgstr "Podle události"
+
+#: admin-page.php:186 shortcode-timetable.php:1517
+msgid "By event category"
+msgstr "Podle kategorie události"
+
+#: admin-page.php:187 shortcode-timetable.php:1518
+msgid "By event and event category"
+msgstr "Podle události a kategorie události"
+
+#: admin-page.php:191
+msgid "Choose between filtering by events or events categories."
+msgstr "Zvolte mezi filtrováním podle událostí nebo podle kategorií událostí."
+
+#: admin-page.php:197 shortcode-timetable.php:1524
+msgid "Filter label"
+msgstr "Filtrování podle popisků"
+
+#: admin-page.php:204
+msgid "Specify text label for all events."
+msgstr "Určete popisek pro všechny události."
+
+#: admin-page.php:210 shortcode-timetable.php:1531
+msgid "Filter label 2"
+msgstr "Filtrování podle popisků 2"
+
+#: admin-page.php:217
+msgid "Specify text label for all events categories."
+msgstr "Určete popisek pro všechny kategorie událostí."
+
+#: admin-page.php:223 admin-page.php:228 shortcode-timetable.php:1554
+#: widget-upcoming-events.php:289
+msgid "Time format"
+msgstr "Formát času"
+
+#: admin-page.php:251 widget-upcoming-events.php:314
+msgid "Custom: "
+msgstr "Vlastní:"
+
+#: admin-page.php:263 shortcode-timetable.php:1561
+msgid "Hide 'All Events' view"
+msgstr "Skrýt zobrazení \"Všechny události\""
+
+#: admin-page.php:273
+msgid "Set to Yes to hide All Events view."
+msgstr "Nastavte \"Ano\" pro  skrytí zobrazení \"Všechny události\"."
+
+#: admin-page.php:279 shortcode-timetable.php:1571
+msgid "Hide first (hours) column"
+msgstr "Skrýt první sloupec (s časy)"
+
+#: admin-page.php:289
+msgid "Set to Yes to hide timetable column with hours."
+msgstr "Nastavte \"Ano\", aby se skryl sloupec s časy."
+
+#: admin-page.php:295 shortcode-timetable.php:1581
+msgid "Show end hour in first (hours) column"
+msgstr "Zobraz hodinu ukončení v prvním sloupci (s časy)"
+
+#: admin-page.php:305
+msgid ""
+"Set to Yes to show both start and end hour in timetable column with hours."
+msgstr ""
+"Nastavte \"Ano\" pro zobrazení začátku i konce hodiny v prvním sloupci (s "
+"časy) rozvrhu."
+
+#: admin-page.php:311 shortcode-timetable.php:1591
+msgid "Event block layout"
+msgstr "Rozložení bloku události"
+
+#: admin-page.php:316 shortcode-timetable.php:1594
+msgid "Type 1"
+msgstr "Typ 1"
+
+#: admin-page.php:317 shortcode-timetable.php:1595
+msgid "Type 2"
+msgstr "Typ 2"
+
+#: admin-page.php:318 shortcode-timetable.php:1596
+msgid "Type 3"
+msgstr "Typ 3"
+
+#: admin-page.php:319 shortcode-timetable.php:1597
+msgid "Type 4"
+msgstr "Typ 4"
+
+#: admin-page.php:320 shortcode-timetable.php:1598
+msgid "Type 5"
+msgstr "Typ 5"
+
+#: admin-page.php:324
+msgid "Select one of the available event block layouts."
+msgstr "Zvolte jedno z možných rozložení bloku události."
+
+#: admin-page.php:330 shortcode-timetable.php:1604
+msgid "Hide empty rows"
+msgstr "Skryj prázdné řádky"
+
+#: admin-page.php:340
+msgid "Set to Yes to hide timetable rows without events."
+msgstr "Zadejte \"ano\" pro skrytí řádků rozvrhu bez událostí."
+
+#: admin-page.php:346 shortcode-timetable.php:1614
+#: widget-upcoming-events.php:388
+msgid "Disable event url"
+msgstr "Vypni URL události"
+
+#: admin-page.php:356
+msgid "Set to Yes for nonclickable event blocks."
+msgstr "Zadejte \"Ano\" pro znemožnění kliknutí na bloky události."
+
+#: admin-page.php:362 shortcode-timetable.php:1624
+msgid "Text align"
+msgstr "Zarovnání textu"
+
+#: admin-page.php:367 shortcode-timetable.php:1627
+msgid "center"
+msgstr "uprostřed"
+
+#: admin-page.php:368 shortcode-timetable.php:1628
+msgid "left"
+msgstr "vlevo"
+
+#: admin-page.php:369 shortcode-timetable.php:1629
+msgid "right"
+msgstr "vpravo"
+
+#: admin-page.php:373
+msgid "Specify text align in timetable event block."
+msgstr "Zvolte zarovnání textu v buňce rozvrhu."
+
+#: admin-page.php:379 shortcode-timetable.php:1635
+msgid "Id"
+msgstr "ID"
+
+#: admin-page.php:386
+msgid ""
+"Assign a unique identifier to a timetable if you use more than one table on "
+"a single page. Otherwise, leave this field blank."
+msgstr ""
+"Pokud na jedné stránce používáte více než jednu tabulku, přiřaďte rozvrhu "
+"jedinečný identifikátor. V opačném případě ponechte prázdné."
+
+#: admin-page.php:392 shortcode-timetable.php:1642
+msgid "Row height (in px)"
+msgstr "Výška řádku (v px)"
+
+#: admin-page.php:399
+msgid "Specify timetable row height in pixels."
+msgstr "Určete výšku řádku rozvrhu v pixelech."
+
+#: admin-page.php:405 shortcode-timetable.php:1649
+msgid "Display list view on desktop"
+msgstr ""
+
+#: admin-page.php:415
+#, fuzzy
+msgid "Set to Yes to display list view in desktop mode."
+msgstr "Nastavte \"Ano\" pro  skrytí zobrazení \"Všechny události\"."
+
+#: admin-page.php:421 shortcode-timetable.php:1659
+msgid "Responsive"
+msgstr "Responsivní"
+
+#: admin-page.php:431
+msgid "Set to Yes to adjust timetable to mobile devices."
+msgstr "Zvolte \"Ano\" k přizpůsobení rozvrhu pro mobilní zařízení."
+
+#: admin-page.php:437 shortcode-timetable.php:1669
+msgid "Event description in responsive mode"
+msgstr ""
+
+#: admin-page.php:442 shortcode-timetable.php:1672
+msgid "None"
+msgstr ""
+
+#: admin-page.php:443 shortcode-timetable.php:1673
+#, fuzzy
+msgid "Only Description 1"
+msgstr "Popis 1"
+
+#: admin-page.php:444 shortcode-timetable.php:1674
+#, fuzzy
+msgid "Only Description 2"
+msgstr "Popis 2"
+
+#: admin-page.php:445 shortcode-timetable.php:1675
+msgid "Description 1 and Description 2"
+msgstr ""
+
+#: admin-page.php:449
+msgid "Specify if you want to display event description in mobile mode."
+msgstr ""
+
+#: admin-page.php:455 shortcode-timetable.php:1681
+msgid "Collapse event hours in responsive mode"
+msgstr ""
+
+#: admin-page.php:465
+msgid ""
+"Set to Yes to collapse event hours in responsive mode, can be expanded on "
+"click."
+msgstr ""
+
+#: admin-page.php:471 shortcode-timetable.php:1691
+msgid "Use colors in responsive mode"
+msgstr ""
+
+#: admin-page.php:481
+msgid ""
+"Set to Yes to use colors defined in shortcode and in event settings while in "
+"responsive mode."
+msgstr ""
+
+#: admin-page.php:487 shortcode-timetable.php:1701
+msgid "Export to PDF button"
+msgstr ""
+
+#: admin-page.php:497
+msgid ""
+"Set to Yes to show 'Generate PDF' button. This option also requires enabling "
+"responsive mode."
+msgstr ""
+
+#: admin-page.php:503 shortcode-timetable.php:1711
+msgid "Generate PDF label"
+msgstr ""
+
+#: admin-page.php:510
+msgid "Specify text label for 'Generate PDF' button."
+msgstr ""
+
+#: admin-page.php:542 post-type-events.php:449 shortcode-timetable.php:1718
+msgid "Timetable box background color"
+msgstr "Barva pozadí buňky rozvrhu"
+
+#: admin-page.php:553 post-type-events.php:459 shortcode-timetable.php:1725
+msgid "Timetable box hover background color"
+msgstr "Barva pozadí buňky rozvrhu při najetí myší"
+
+#: admin-page.php:564 post-type-events.php:468 shortcode-timetable.php:1732
+msgid "Timetable box text color"
+msgstr "Barva textu v buňce rozvrhu"
+
+#: admin-page.php:575 post-type-events.php:478 shortcode-timetable.php:1739
+msgid "Timetable box hover text color"
+msgstr "Barva textu v buňce rozvrhu při najetí myší"
+
+#: admin-page.php:586 post-type-events.php:487 shortcode-timetable.php:1746
+msgid "Timetable box hours text color"
+msgstr "Barva času v buňce rozvrhu"
+
+#: admin-page.php:597 shortcode-timetable.php:1753
+msgid "Timetable box hours hover text color"
+msgstr "Barva času v buňce rozvrhu při najetí myší"
+
+#: admin-page.php:608 shortcode-timetable.php:1760
+msgid "Filter control background color"
+msgstr "Barva pozadí prvku způsobu filtrování"
+
+#: admin-page.php:619 shortcode-timetable.php:1767
+msgid "Row 1 style background color"
+msgstr "Barva pozadí řádku 1"
+
+#: admin-page.php:630 shortcode-timetable.php:1774
+msgid "Row 2 style background color"
+msgstr "Barva pozadí řádku 2"
+
+#: admin-page.php:641 shortcode-timetable.php:1781
+#, fuzzy
+msgid "Generate PDF button text color"
+msgstr "Barva textu v buňce rozvrhu"
+
+#: admin-page.php:652 shortcode-timetable.php:1788
+#, fuzzy
+msgid "Generate PDF button background color"
+msgstr "Barva pozadí buňky rozvrhu"
+
+#: admin-page.php:663 shortcode-timetable.php:1795
+#, fuzzy
+msgid "Generate PDF button hover text color"
+msgstr "Barva textu v buňce rozvrhu při najetí myší"
+
+#: admin-page.php:674 shortcode-timetable.php:1802
+#, fuzzy
+msgid "Generate PDF button hover background color"
+msgstr "Barva pozadí buňky rozvrhu při najetí myší"
+
+#: admin-page.php:685 shortcode-timetable.php:1809
+msgid "Booking button text color"
+msgstr ""
+
+#: admin-page.php:696 shortcode-timetable.php:1816
+msgid "Booking button background color"
+msgstr ""
+
+#: admin-page.php:707 shortcode-timetable.php:1823
+msgid "Booking button hover text color"
+msgstr ""
+
+#: admin-page.php:718 shortcode-timetable.php:1830
+msgid "Booking button hover background color"
+msgstr ""
+
+#: admin-page.php:729 shortcode-timetable.php:1837
+msgid "Booked button text color"
+msgstr ""
+
+#: admin-page.php:740 shortcode-timetable.php:1844
+msgid "Booked button background color"
+msgstr ""
+
+#: admin-page.php:751 shortcode-timetable.php:1851
+msgid "Unavailable button text color"
+msgstr ""
+
+#: admin-page.php:762 shortcode-timetable.php:1858
+msgid "Unavailable button background color"
+msgstr ""
+
+#: admin-page.php:773 shortcode-timetable.php:1865
+msgid "Available slots color"
+msgstr ""
+
+#: admin-page.php:790 shortcode-timetable.php:1872
+msgid "Table header font"
+msgstr "Písmo pro hlavičku tabulky"
+
+#: admin-page.php:796
+msgid "Enter font name"
+msgstr "Zadejte název písma"
+
+#: admin-page.php:804 shortcode-timetable.php:1879
+msgid "or choose Google font"
+msgstr "nebo vyberte Google písmo"
+
+#: admin-page.php:808
+msgid "Default"
+msgstr "Přednastavený"
+
+#: admin-page.php:818 shortcode-timetable.php:1886
+msgid "Google font subset"
+msgstr "Podmnožina Google písma"
+
+#: admin-page.php:826 shortcode-timetable.php:1912
+msgid "Font size (in px)"
+msgstr "Velikost písma (v px)"
+
+#: admin-page.php:841 shortcode-timetable.php:1919
+msgid "Show booking button"
+msgstr ""
+
+#: admin-page.php:847 admin-page.php:864 shortcode-timetable.php:1923
+#: shortcode-timetable.php:1934
+msgid "Always"
+msgstr ""
+
+#: admin-page.php:848 shortcode-timetable.php:1924
+msgid "On hover"
+msgstr ""
+
+#: admin-page.php:852
+msgid "Specify if the 'Book now' button should be displayed."
+msgstr ""
+
+#: admin-page.php:858 shortcode-timetable.php:1930
+msgid "Show available slots"
+msgstr ""
+
+#: admin-page.php:868
+msgid "Specify if the 'available slots' information should be displayed."
+msgstr ""
+
+#: admin-page.php:874 shortcode-timetable.php:1940
+msgid "Available slots singular label"
+msgstr ""
+
+#: admin-page.php:881 shortcode-timetable.php:1943
+msgid ""
+"Specify text label for 'slot available' information (singular). Available "
+"placeholders: {number_available}, {number_taken}, {number_total}."
+msgstr ""
+
+#: admin-page.php:887 shortcode-timetable.php:1948
+msgid "Available slots plural label"
+msgstr ""
+
+#: admin-page.php:894 shortcode-timetable.php:1951
+msgid ""
+"Specify text label for 'slots available' information (plural). Available "
+"placeholders: {number_available}, {number_taken}, {number_total}."
+msgstr ""
+
+#: admin-page.php:900 shortcode-timetable.php:1956
+msgid "Allow guest booking"
+msgstr ""
+
+#: admin-page.php:910 shortcode-timetable.php:1962
+msgid "Set to 'Yes' if you want to allow guests to make a booking."
+msgstr ""
+
+#: admin-page.php:916 shortcode-timetable.php:1967
+msgid "Show guest name field"
+msgstr ""
+
+#: admin-page.php:926 shortcode-timetable.php:1977
+msgid "Set to 'Yes' if you want to show 'Name' field in guest booking form."
+msgstr ""
+
+#: admin-page.php:932 shortcode-timetable.php:1982
+msgid "Guest name field required"
+msgstr ""
+
+#: admin-page.php:942 shortcode-timetable.php:1992
+msgid "Set to 'Yes' if the 'Name' field should be required."
+msgstr ""
+
+#: admin-page.php:948 shortcode-timetable.php:1997
+msgid "Show guest phone field"
+msgstr ""
+
+#: admin-page.php:958 shortcode-timetable.php:2007
+msgid "Set to 'Yes' if you want to show 'Phone' field in guest booking form."
+msgstr ""
+
+#: admin-page.php:964 shortcode-timetable.php:2012
+msgid "Guest phone field required"
+msgstr ""
+
+#: admin-page.php:974 shortcode-timetable.php:2022
+msgid "Set to 'Yes' if the 'Phone' field should be required."
+msgstr ""
+
+#: admin-page.php:980 shortcode-timetable.php:2027
+msgid "Show guest message field"
+msgstr ""
+
+#: admin-page.php:990
+msgid ""
+"Set to 'Message' if you want to show 'Phone' field in guest booking form."
+msgstr ""
+
+#: admin-page.php:996 shortcode-timetable.php:2042
+msgid "Guest message field required"
+msgstr ""
+
+#: admin-page.php:1006 shortcode-timetable.php:2052
+msgid "Set to 'Yes' if the 'Message' field should be required."
+msgstr ""
+
+#: admin-page.php:1012 shortcode-timetable.php:2057
+msgid "Booking label"
+msgstr ""
+
+#: admin-page.php:1019
+msgid "Specify text label for booking button."
+msgstr ""
+
+#: admin-page.php:1025 shortcode-timetable.php:2064
+msgid "Booked label"
+msgstr ""
+
+#: admin-page.php:1032
+msgid "Specify text label for already booked event."
+msgstr ""
+
+#: admin-page.php:1038 shortcode-timetable.php:2071
+msgid "Unavailable label"
+msgstr ""
+
+#: admin-page.php:1045
+msgid "Specify text label for unavailable event."
+msgstr ""
+
+#: admin-page.php:1051 shortcode-timetable.php:2078
+msgid "Popup booking label"
+msgstr ""
+
+#: admin-page.php:1058
+msgid "Specify text label for booking button in the popup window."
+msgstr ""
+
+#: admin-page.php:1064 shortcode-timetable.php:2085
+msgid "Popup login label"
+msgstr ""
+
+#: admin-page.php:1071
+msgid "Specify text label for login button in the popup window."
+msgstr ""
+
+#: admin-page.php:1077 shortcode-timetable.php:2092
+msgid "Popup cancel label"
+msgstr ""
+
+#: admin-page.php:1084
+msgid "Specify text label for cancel button in the popup window."
+msgstr ""
+
+#: admin-page.php:1090 shortcode-timetable.php:2099
+msgid "Popup continue label"
+msgstr ""
+
+#: admin-page.php:1097
+msgid "Specify text label for continue button in the popup window."
+msgstr ""
+
+#: admin-page.php:1103 shortcode-timetable.php:2106
+msgid "Booking pop-up message"
+msgstr ""
+
+#: admin-page.php:1107 shortcode-timetable.php:2109
+msgid ""
+"Specify text that will appear in pop-up window. Available placeholders: "
+"{event_title} {column_title} {event_start} {event_end} {event_description_1} "
+"{event_description_2} {user_name} {user_email} {tt_btn_book} {tt_btn_cancel} "
+"{tt_btn_continue}"
+msgstr ""
+
+#: admin-page.php:1118 shortcode-timetable.php:2114
+msgid "Booking pop-up thank you message"
+msgstr ""
+
+#: admin-page.php:1122 shortcode-timetable.php:2117
+msgid ""
+"Specify text that will appear in pop-up window. Available placeholders: "
+"{event_title} {column_title} {event_start} {event_end} {event_description_1} "
+"{event_description_2} {user_name} {user_email} {tt_btn_continue}"
+msgstr ""
+
+#: bookings-list.class.php:8
+msgid "Bookings"
+msgstr ""
+
+#: bookings-list.class.php:57
+msgid "Booking deleted."
+msgstr ""
+
+#: bookings-list.class.php:77
+msgid "No bookings avaliable."
+msgstr ""
+
+#: bookings-list.class.php:90 bookings-list.class.php:110
+#, php-format
+msgid "Booking #%d (%s)"
+msgstr ""
+
+#: bookings-list.class.php:130
+#, php-format
+msgid "Guest (%s)"
+msgstr ""
+
+#: bookings-list.class.php:163 post-type-events.php:631
+#: post-type-weekdays.php:40
+msgid "Date"
+msgstr "Datum"
+
+#: bookings-list.class.php:164 timetable.php:1150
+msgid "Event"
+msgstr "Událost"
+
+#: bookings-list.class.php:165
+msgid "User"
+msgstr ""
+
+#: bookings-list.class.php:166 timetable.php:1430
+msgid "Message"
+msgstr ""
+
+#: bookings-list.class.php:226
+msgid "You're not allowed to perform this action."
+msgstr ""
+
+#: importer/parsers.php:42 importer/parsers.php:72 importer/parsers.php:80
+msgid "There was an error when reading this WXR file"
+msgstr "Během čtení tohoto WXR souboru došlo k chybě"
+
+#: importer/parsers.php:43
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+"Detaily jsou zobrazeny výše. Importer to nyní zkusí znovu s jiným parserem..."
+
+#: importer/parsers.php:84 importer/parsers.php:89 importer/parsers.php:279
+#: importer/parsers.php:468
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr "Toto nevypadá jako WXR soubor, chybějící/špatné číslo verze WXR"
+
+#: importer/wordpress-importer.php:134 importer/wordpress-importer.php:143
+#: importer/wordpress-importer.php:194 importer/wordpress-importer.php:198
+#: importer/wordpress-importer.php:207
+msgid "Sorry, there has been an error."
+msgstr "Promiňte, objevila se chyba."
+
+#: importer/wordpress-importer.php:135
+msgid "The file does not exist, please try again."
+msgstr "Soubor neexistuje, zkuste to prosím znovu."
+
+#: importer/wordpress-importer.php:178
+msgid "All done."
+msgstr "Vše hotovo."
+
+#: importer/wordpress-importer.php:178
+msgid "Have fun!"
+msgstr "Bavte se!"
+
+#: importer/wordpress-importer.php:179
+msgid "Remember to update the passwords and roles of imported users."
+msgstr "Nezapomeňte aktualizovat hesla a role importovaných uživatelů."
+
+#: importer/wordpress-importer.php:199
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+"Exportovaný soubor nemůže být nalezen v <code>%s</code>. Je pravděpodobné, "
+"že to může být způsobeno problémem s oprávněními."
+
+#: importer/wordpress-importer.php:215
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+"Tento WXR soubor (version %s) možná nemá podporu této verze importéru. "
+"Zvažte, prosím aktualizaci."
+
+#: importer/wordpress-importer.php:240
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+"Nepodařilo se importovat autora %s. Jeho příspěvky budou připsány aktuálnímu "
+"uživateli."
+
+#: importer/wordpress-importer.php:266
+msgid "Assign Authors"
+msgstr "Přiřadit autory"
+
+#: importer/wordpress-importer.php:267
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>admin</"
+"code>s entries."
+msgstr ""
+"Aby byla úprava a uložení importovaného obsahu pro Vás snadnější, budete "
+"možná chtít změnit autorství importovaného prvku k existujícímu uživateli "
+"této stránky. Například možná budete chtít importovat všechny záznamy jako "
+"<code>admin</code> záznamy."
+
+#: importer/wordpress-importer.php:269
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+"Pokud je nový uživatel vytvořen WordPressem, bude nové heslo vygenerováno "
+"náhodně a role nového uživatele &#8217; bude nastavena jako %s. Ruční změna "
+"detailů uživatele &#8217; bude nezbytná."
+
+#: importer/wordpress-importer.php:279
+msgid "Import Attachments"
+msgstr "Importovat přílohy"
+
+#: importer/wordpress-importer.php:282
+msgid "Download and import file attachments"
+msgstr "Stáhnout a importovat přílohy souboru"
+
+#: importer/wordpress-importer.php:286
+msgid "Submit"
+msgstr "Odeslat"
+
+#: importer/wordpress-importer.php:299
+msgid "Import author:"
+msgstr "Importovat autora:"
+
+#: importer/wordpress-importer.php:310
+msgid "or create new user with login name:"
+msgstr "nebo vytvořte nového uživatele s přihlašovacím jménem"
+
+#: importer/wordpress-importer.php:313
+msgid "as a new user:"
+msgstr "jako nový uživatel:"
+
+#: importer/wordpress-importer.php:321
+msgid "assign posts to an existing user:"
+msgstr "přiřaďte příspěvky k existujícímu uživateli:"
+
+#: importer/wordpress-importer.php:323
+msgid "or assign posts to an existing user:"
+msgstr "nebo přiřaďte příspěvky k existujícímu uživateli:"
+
+#: importer/wordpress-importer.php:324
+msgid "- Select -"
+msgstr "- Vyberte -"
+
+#: importer/wordpress-importer.php:374
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+"Nepodařilo se vytvořit nového uživatele pro %s. Jeho příspěvky budou "
+"připsány současnému uživateli."
+
+#: importer/wordpress-importer.php:425
+#, php-format
+msgid "Failed to import category %s"
+msgstr "Nepodařilo se importovat kategorii %s"
+
+#: importer/wordpress-importer.php:465
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr "Nepodařilo se importovat tag %s příspěvku"
+
+#: importer/wordpress-importer.php:511 importer/wordpress-importer.php:652
+#, php-format
+msgid "Failed to import %s %s"
+msgstr "Nepodařilo se importovat %s %s"
+
+#: importer/wordpress-importer.php:537
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr "Nepodařilo se importovat &#8220;%s&#8221;: Špatný typ %s příspěvku"
+
+#: importer/wordpress-importer.php:559
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr "%s &#8220;%s&#8221; již existuje."
+
+#: importer/wordpress-importer.php:618
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr "Nepodařilo se importovat %s &#8220;%s&#8221;"
+
+#: importer/wordpress-importer.php:783
+msgid "Menu item skipped due to missing menu slug"
+msgstr "Položka menu přeskočena z důvodu chybějícího slug menu"
+
+#: importer/wordpress-importer.php:790
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr "Položka menu přeskočena z důvodu vadného slug menu: %s"
+
+#: importer/wordpress-importer.php:853
+msgid "Fetching attachments is not enabled"
+msgstr "Načítání příloh není povoleno"
+
+#: importer/wordpress-importer.php:866
+msgid "Invalid file type"
+msgstr "Nesprávný typ souboru"
+
+#: importer/wordpress-importer.php:910
+msgid "Remote server did not respond"
+msgstr "Vzdálený server neodpověděl"
+
+#: importer/wordpress-importer.php:916
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr "Vzdálený server vrátil chybovou odezvu %1$d %2$s"
+
+#: importer/wordpress-importer.php:923
+msgid "Remote file is incorrect size"
+msgstr "Vzdálený soubor má nesprávnou velikost"
+
+#: importer/wordpress-importer.php:928
+msgid "Zero size file downloaded"
+msgstr "Stažený soubor má nulovou velikost"
+
+#: importer/wordpress-importer.php:934
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr "Vzdálený soubor je příliš velký, limit je %s"
+
+#: importer/wordpress-importer.php:1033
+msgid "Import WordPress"
+msgstr "Import WordPressu"
+
+#: importer/wordpress-importer.php:1040
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+"Nová verze tohoto importéru je k dispozici. Prosíme, aktualizujte na verzi "
+"%s k zajištění kompatibility s novějšími exportovanými soubory."
+
+#: importer/wordpress-importer.php:1055
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+"Nazdárek! Nahrajte Váš WordPress eXtended RSS (WXR soubor a my do této "
+"stránky naimportujeme příspěvky, stránky, komentáře, vlastní pole, kategorie "
+"a tagy."
+
+#: importer/wordpress-importer.php:1056
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+"Vyberte WXR soubor (.xml) k nahrání, klikněte na \"Nahrát\" and importujte."
+
+#: post-type-events.php:25 post-type-weekdays.php:8
+msgid "Add New"
+msgstr "Přidat nový"
+
+#: post-type-events.php:26
+#, fuzzy, php-format
+msgid "Add New %s"
+msgstr "Přidat nový"
+
+#: post-type-events.php:27
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: post-type-events.php:28
+#, php-format
+msgid "New %s"
+msgstr ""
+
+#: post-type-events.php:29
+#, fuzzy, php-format
+msgid "All %s"
+msgstr "Všechny události"
+
+#: post-type-events.php:30
+#, fuzzy
+msgid "View "
+msgstr "Zobraz událost"
+
+#: post-type-events.php:31
+#, fuzzy, php-format
+msgid "Search %s"
+msgstr "Hledej událost"
+
+#: post-type-events.php:32
+#, fuzzy, php-format
+msgid "No %s found"
+msgstr "Žádné události nenalezeny"
+
+#: post-type-events.php:33
+#, fuzzy, php-format
+msgid "No %s found in Trash"
+msgstr "V koši nebyly nalezeny žádné události"
+
+#: post-type-events.php:163
+msgid "Event hours"
+msgstr "Hodiny události"
+
+#: post-type-events.php:170
+msgid "Options"
+msgstr "Možnosti"
+
+#: post-type-events.php:277 post-type-events.php:362
+msgid "Tooltip"
+msgstr "Popisek"
+
+#: post-type-events.php:279 post-type-events.php:346
+msgid "Description 1"
+msgstr "Popis 1"
+
+#: post-type-events.php:281 post-type-events.php:354
+msgid "Description 2"
+msgstr "Popis 2"
+
+#: post-type-events.php:283 post-type-events.php:378
+msgid "Available slots"
+msgstr ""
+
+#: post-type-events.php:285 post-type-events.php:386
+msgid "Slots per user"
+msgstr ""
+
+#: post-type-events.php:288
+msgid "Show/Hide booked users"
+msgstr ""
+
+#: post-type-events.php:295
+#, php-format
+msgid "<a href=\"%s\">%s</a> on %s"
+msgstr ""
+
+#: post-type-events.php:299
+#, php-format
+msgid "Guest: %s on %s"
+msgstr ""
+
+#: post-type-events.php:307 post-type-events.php:370
+msgid "Category"
+msgstr "Kategorie"
+
+#: post-type-events.php:317 post-type-events.php:407
+msgid "Timetable column"
+msgstr "Sloupec rozvrhu"
+
+#: post-type-events.php:328
+msgid "Start hour"
+msgstr "Hodina zahájení"
+
+#: post-type-events.php:337
+msgid "End hour"
+msgstr "Hodina ukončení"
+
+#: post-type-events.php:394
+msgid "Add"
+msgstr "Přidat"
+
+#: post-type-events.php:402
+msgid "Delete event bookings"
+msgstr ""
+
+#: post-type-events.php:411
+msgid "All"
+msgstr ""
+
+#: post-type-events.php:421
+msgid "Delete"
+msgstr ""
+
+#: post-type-events.php:441
+msgid "Subtitle"
+msgstr "Titulek"
+
+#: post-type-events.php:454
+msgid "Required when 'Timetable box hover color' isn't empty"
+msgstr ""
+"Vyžadováno pokud není nastavena barva \"Barva pozadí buňky rozvrhu při "
+"najetí myší\""
+
+#: post-type-events.php:473
+msgid "Required when 'Timetable box hover text color' isn't empty"
+msgstr ""
+"Vyžadováno pokud není nastavena barva \"Barva textu v buňce rozvrhu při "
+"najetí myší\""
+
+#: post-type-events.php:492
+msgid "Required when 'Timetable box hover hours text color' isn't empty"
+msgstr ""
+"Vyžadováno pokud není nastavena barva \"Barva času v buňce rozvrhu při "
+"najetí myší\""
+
+#: post-type-events.php:497
+msgid "Timetable box hover hours text color"
+msgstr "Barva času v buňce rozvrhu při najetí myší"
+
+#: post-type-events.php:506
+msgid "Timetable custom URL"
+msgstr "Vlastní URL rozvrhu"
+
+#: post-type-events.php:514
+msgid "Disable timetable event URL"
+msgstr "Vypnout URL události rozvrhu"
+
+#: post-type-events.php:629 widget-upcoming-events.php:263
+msgid "Title"
+msgstr "Nadpis"
+
+#: post-type-events.php:630 widget-upcoming-events.php:334
+msgid "Categories"
+msgstr "Kategorie"
+
+#: post-type-events.php:659
+msgid ""
+"Error: Available slots value must be equal or greater than the number of "
+"existing bookings."
+msgstr ""
+
+#: post-type-weekdays.php:6 post-type-weekdays.php:18
+msgid "Timetable columns"
+msgstr "Sloupce rozvrhu"
+
+#: post-type-weekdays.php:7
+msgid "Timetable Column"
+msgstr "Sloupec rozvrhu"
+
+#: post-type-weekdays.php:9
+msgid "Add New Timetable Column"
+msgstr "Přidej nový sloupec rozvrhu"
+
+#: post-type-weekdays.php:10
+msgid "Edit Timetable Column"
+msgstr "Uprav sloupec rozvrhu"
+
+#: post-type-weekdays.php:11
+msgid "New Timetable Column"
+msgstr "Nový sloupec rozvrhu"
+
+#: post-type-weekdays.php:12
+msgid "All Timetable Columns"
+msgstr "Všechny sloupce rozvrhu"
+
+#: post-type-weekdays.php:13
+msgid "View Timetable Column"
+msgstr "Zobraz sloupec rozvrhu"
+
+#: post-type-weekdays.php:14
+msgid "Search Timetable Columns"
+msgstr "Vyhledej sloupec rozvrhu"
+
+#: post-type-weekdays.php:15
+msgid "No timetable columns found"
+msgstr "Žádné sloupce rozvrhu nenalezen"
+
+#: post-type-weekdays.php:16
+msgid "No timetable columns found in Trash"
+msgstr "V koši nebyly nalezeny žádné sloupce rozvrhu"
+
+#: post-type-weekdays.php:39
+msgid "Day name"
+msgstr "Název dne"
+
+#: shortcode-timetable.php:332 shortcode-timetable.php:344
+#: shortcode-timetable.php:368
+#, fuzzy, php-format
+msgid "No %s available!"
+msgstr "K dispozici nejsou žádné události!"
+
+#: shortcode-timetable.php:363
+#, php-format
+msgid "No %1$s available in %2$s category!"
+msgstr ""
+
+#: shortcode-timetable.php:530
+#, fuzzy, php-format
+msgid "No %s hours available!"
+msgstr "Nejsou dostupně hodiny události!"
+
+#: shortcode-timetable.php:1445 timetable.php:299
+msgid "Timetable"
+msgstr "Rozvrh"
+
+#: shortcode-timetable.php:1457
+msgid "Choose shortcode id:"
+msgstr ""
+
+#: shortcode-timetable.php:1526
+msgid "All Events"
+msgstr "Všechny události"
+
+#: shortcode-timetable.php:1533
+msgid "All Events Categories"
+msgstr "Všechny kategorie událostí"
+
+#: shortcode-timetable.php:1542
+msgid "Select time format"
+msgstr "Vyberte formát času"
+
+#: shortcode-timetable.php:1545
+msgid "09.03 (H.i)"
+msgstr "09.03 (H.i)"
+
+#: shortcode-timetable.php:1546
+msgid "09:03 (H:i)"
+msgstr "09:03 (H:i)"
+
+#: shortcode-timetable.php:1547
+msgid "9:03 am (g:i a)"
+msgstr "9:03 am (g:i a)"
+
+#: shortcode-timetable.php:1548
+msgid "9:03 AM (g:i A)"
+msgstr "9:03 AM (g:i A)"
+
+#: shortcode-timetable.php:1713
+msgid "Generate PDF"
+msgstr ""
+
+#: shortcode-timetable.php:2037
+msgid "Set to 'Yes' if you want to show 'Message' field in guest booking form."
+msgstr ""
+
+#: shortcode-timetable.php:2059 shortcode-timetable.php:2080
+msgid "Book now"
+msgstr ""
+
+#: shortcode-timetable.php:2066
+msgid "Booked"
+msgstr ""
+
+#: shortcode-timetable.php:2073
+msgid "Unavailable"
+msgstr ""
+
+#: shortcode-timetable.php:2087
+msgid "Log in"
+msgstr ""
+
+#: shortcode-timetable.php:2094
+msgid "Cancel"
+msgstr ""
+
+#: shortcode-timetable.php:2101
+msgid "Continue"
+msgstr ""
+
+#: sp-bookings.class.php:29
+msgid "Timetable Bookings"
+msgstr ""
+
+#: sp-bookings.class.php:52
+msgid "Bookings list"
+msgstr ""
+
+#: timetable.php:65
+msgid "You have been booked for event {event_title}"
+msgstr ""
+
+#: timetable.php:85
+msgid "New booking for event: {event_title}"
+msgstr ""
+
+#: timetable.php:155
+#, php-format
+msgid "Error: Booking #%d does not exist or validation code is incorrect."
+msgstr ""
+
+#: timetable.php:162
+#, php-format
+msgid "Booking #%d deleted"
+msgstr ""
+
+#: timetable.php:163
+#, php-format
+msgid "Title: %s"
+msgstr ""
+
+#: timetable.php:164
+#, php-format
+msgid "Time: %s"
+msgstr ""
+
+#: timetable.php:165
+#, php-format
+msgid "Column: %s"
+msgstr ""
+
+#: timetable.php:167
+#, php-format
+msgid "Description 1: %s"
+msgstr ""
+
+#: timetable.php:169
+#, php-format
+msgid "Description 2: %s"
+msgstr ""
+
+#: timetable.php:235
+msgid "Event post thumbnail"
+msgstr "Náhled příspěvku události"
+
+#: timetable.php:236
+msgid "Event post box thumbnail"
+msgstr "Náhled buňky příspěvku události"
+
+#: timetable.php:300
+msgid "Shortcode Generator"
+msgstr ""
+
+#: timetable.php:301
+msgid "Event Post Type"
+msgstr ""
+
+#: timetable.php:302
+msgid "Email config"
+msgstr ""
+
+#: timetable.php:303
+msgid "Import Dummy Data"
+msgstr ""
+
+#: timetable.php:335
+msgid "Please confirm that you want to delete event bookings."
+msgstr ""
+
+#: timetable.php:410
+msgid ""
+"<h2>Invalid event hour</h2>\n"
+"<p>Selected event hour doesn't exist.<br>Please select different event.</p>"
+msgstr ""
+
+#: timetable.php:435
+msgid ""
+"<h2>Invalid event hour</h2><p>Selected event hour doesn't exist.<br>Please "
+"select different event.</p>"
+msgstr ""
+
+#: timetable.php:478
+#, php-format
+msgid ""
+"<p class=\"tt_guest_option\">Don't have an account? <a href=\"%s\">Continue "
+"as guest</a></p>"
+msgstr ""
+
+#: timetable.php:479
+#, php-format
+msgid ""
+"<p class=\"tt_login_option tt_hide\">Got an account? <a href=\"%s\">Login</"
+"a></p>"
+msgstr ""
+
+#: timetable.php:536
+msgid ""
+"<h2>Booking couldn't be made</h2>\n"
+"<p>No place available for selected event hour.</p>"
+msgstr ""
+
+#: timetable.php:547
+msgid ""
+"<h2>Booking couldn't be made</h2>\n"
+"<p>You've already reached maximum number of slots.</p>"
+msgstr ""
+
+#: timetable.php:555
+msgid ""
+"<h2>Booking couldn't be made</h2>\n"
+"<p>You have selected too many slots.</p>"
+msgstr ""
+
+#: timetable.php:565
+msgid ""
+"<h2>Error</h2>\n"
+"<p>You must fill name field.</p>"
+msgstr ""
+
+#: timetable.php:572
+msgid ""
+"<h2>Error</h2>\n"
+"<p>You must fill email field.</p>"
+msgstr ""
+
+#: timetable.php:579
+msgid ""
+"<h2>Error</h2>\n"
+"<p>Please provide valid email.</p>"
+msgstr ""
+
+#: timetable.php:586
+msgid ""
+"<h2>Error</h2>\n"
+"<p>You must fill phone field.</p>"
+msgstr ""
+
+#: timetable.php:593
+msgid ""
+"<h2>Error</h2>\n"
+"<p>You must fill message field.</p>"
+msgstr ""
+
+#: timetable.php:624
+msgid ""
+"<h2>Booking couldn't be made</h2>\n"
+"<p>You can't register for this event hour.</p>"
+msgstr ""
+
+#: timetable.php:756
+#, php-format
+msgid "Cancel booking #%d"
+msgstr ""
+
+#: timetable.php:759
+msgid "Cancel all bookings"
+msgstr ""
+
+#: timetable.php:842
+msgid "Email message sent."
+msgstr ""
+
+#: timetable.php:846
+#, php-format
+msgid "Email message not sent.<br>%s"
+msgstr ""
+
+#: timetable.php:927
+msgid ""
+"Import file: dummy-timetable.xml not found! Please upload import file "
+"manually into Media library. You can find this file inside zip archive "
+"downloaded from CodeCanyon."
+msgstr ""
+"Importovaný soubor: dummy-timetable.xml nenalezen! Prosím nahrajte soubor "
+"pro import ručně do knihovny médií. Tento soubor můžete nalézt v zip archivu "
+"staženého z CodeCanyon."
+
+#: timetable.php:997
+msgid "Widgets data file not found! Please upload widgets data file manually."
+msgstr "Datový soubor widgetů nenalezen! Prosím nahrajte soubor ručně."
+
+#: timetable.php:1138
+msgid ""
+"dummy-timetable.xml file content and widgets settings has been imported "
+"successfully!"
+msgstr ""
+"obsah souboru dummy-timetable.xml a nastavení widgetů byla úspěšně "
+"naimportována!"
+
+#: timetable.php:1149
+#, fuzzy
+msgid "events"
+msgstr "Události"
+
+#: timetable.php:1354 timetable.php:1418
+msgid "Slots number"
+msgstr ""
+
+#: timetable.php:1386
+msgid "Name *"
+msgstr ""
+
+#: timetable.php:1395
+msgid "Email *"
+msgstr ""
+
+#: timetable.php:1405
+msgid "Phone *"
+msgstr ""
+
+#: timetable.php:1405
+msgid "Phone"
+msgstr ""
+
+#: timetable.php:1430
+msgid "Message *"
+msgstr ""
+
+#: widget-upcoming-events.php:12
+msgid "Upcoming Events"
+msgstr "Nadcházející události"
+
+#: widget-upcoming-events.php:197
+#, fuzzy, php-format
+msgid "No upcoming %s for today"
+msgstr "Všechny tréninky už dnes proběhly nebo nejsou žádné plánované"
+
+#: widget-upcoming-events.php:267
+msgid "Title color"
+msgstr "Barva nadpisu"
+
+#: widget-upcoming-events.php:272
+msgid "Count"
+msgstr "Počet"
+
+#: widget-upcoming-events.php:276
+msgid "Display settings"
+msgstr "Nastavení zobrazení"
+
+#: widget-upcoming-events.php:278
+msgid "today upcoming"
+msgstr "naplánované na dnes"
+
+#: widget-upcoming-events.php:279
+msgid "all upcoming"
+msgstr "všechny naplánované"
+
+#: widget-upcoming-events.php:280
+msgid "current events"
+msgstr "právě probíhající události"
+
+#: widget-upcoming-events.php:284
+msgid "All upcoming within next"
+msgstr "Všechny naplánované události v průběhu následujících "
+
+#: widget-upcoming-events.php:285
+msgid "day(s)"
+msgstr "dni"
+
+#: widget-upcoming-events.php:320
+msgid "Time from"
+msgstr "Čas ze"
+
+#: widget-upcoming-events.php:322
+msgid "server"
+msgstr "serveru"
+
+#: widget-upcoming-events.php:323
+msgid "database"
+msgstr "databáze"
+
+#: widget-upcoming-events.php:327
+msgid "Timezone"
+msgstr "Časové pásmo"
+
+#: widget-upcoming-events.php:329
+msgid "localtime"
+msgstr "místní čas"
+
+#: widget-upcoming-events.php:330
+msgid "utc"
+msgstr "utc"
+
+#: widget-upcoming-events.php:370
+msgid "Auto scroll"
+msgstr "Automatické rolování"
+
+#: widget-upcoming-events.php:372 widget-upcoming-events.php:390
+msgid "no"
+msgstr "ne"
+
+#: widget-upcoming-events.php:373 widget-upcoming-events.php:391
+msgid "yes"
+msgstr "ano"
+
+#: widget-upcoming-events.php:377
+msgid "Custom event url"
+msgstr "Vlastní url události"
+
+#: widget-upcoming-events.php:381
+msgid "Event featured image"
+msgstr "Náhledový obrázek události"
+
+#: widget-upcoming-events.php:383
+msgid "Hide"
+msgstr "Skrýt"
+
+#: widget-upcoming-events.php:384
+msgid "Show"
+msgstr "Zobrazit"
+
+#: widget-upcoming-events.php:395
+msgid "Background color"
+msgstr "Barva pozadí"
+
+#: widget-upcoming-events.php:400
+msgid "Hover background color"
+msgstr "Barva pozadí při najetí myší"
+
+#: widget-upcoming-events.php:405
+msgid "Text color"
+msgstr "Barva textu"
+
+#: widget-upcoming-events.php:410
+msgid "Hover text color"
+msgstr "Barva textu při najetí myší"
+
+#: widget-upcoming-events.php:415
+msgid "Item border color"
+msgstr "Barva ohraničení prvku"
+
+#: widget-upcoming-events.php:420
+msgid "Hover item border color"
+msgstr "Barva ohraničení prvku při najetí myší"
+
+#~ msgid "Add New Event"
+#~ msgstr "Přidat novou událost"
+
+#~ msgid "Edit Event"
+#~ msgstr "Upravit událost"
+
+#~ msgid "New Event"
+#~ msgstr "Nová událost"

@@ -1,0 +1,231 @@
+/** RESET AND LAYOUT
+===================================*/
+.imedica_image_gallery .bx-wrapper {
+    position: relative;
+    margin: 0 auto 0;
+    padding: 7px;
+    border: 1px solid #eeeeee;
+    *zoom: 1;
+}
+
+.imedica_image_gallery .bx-wrapper img {
+    max-width: 100%;
+    display: block;
+}
+
+/** THEME
+===================================*/
+.bx-wrapper .bx-viewport {
+    -moz-box-shadow: 0 0 1px #ccc;
+    -webkit-box-shadow: 0 0 1px #ccc;
+    box-shadow: 0 0 1px #ccc;
+    border: 0;
+    left: 0;
+    background: #fff;
+    /*fix other elements on the page moving (on Chrome)*/
+
+    -webkit-transform: translatez(0);
+    -moz-transform: translatez(0);
+    -ms-transform: translatez(0);
+    -o-transform: translatez(0);
+    transform: translatez(0);
+}
+
+.bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+    position: absolute;
+    bottom: -30px;
+    width: 100%;
+}
+
+/* LOADER */
+.bx-wrapper .bx-loading {
+    min-height: 50px;
+    background: url(../images/bx_loader.gif) center center no-repeat #fff;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+}
+
+/* PAGER */
+.bx-wrapper .bx-pager {
+    text-align: center;
+    font-size: .85em;
+    font-family: Arial;
+    font-weight: bold;
+    color: #666;
+    top: 0;
+}
+
+.bx-wrapper .bx-pager .bx-pager-item, .bx-wrapper .bx-controls-auto .bx-controls-auto-item {
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a {
+    background: #666;
+    text-indent: -9999px;
+    display: block;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    outline: 0;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active {
+    background: #000;
+}
+
+.bx-next {
+    right: 7px;
+}
+
+.bx-prev {
+    left: 7px;
+}
+
+.bx-wrapper .bx-controls-direction a i {
+    position: absolute;
+    top: 49%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.site-content .bx-wrapper .bx-controls-direction a {
+    position: absolute;
+    top: 50%;
+    margin-top: -16px;
+    outline: 0;
+    width: 1.8em;
+    height: 1.8em;
+    text-indent: 0;
+    /* z-index: 9999; */
+
+    text-align: center;
+    font-size: 15px;
+    border: 1px solid #107FC9;
+    display: block;
+    background: none;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.bx-wrapper .bx-controls-direction a:hover {
+    color: #fff;
+    background: #107fc9;;
+    border-color: #107fc9;
+}
+
+.bx-wrapper .bx-controls-direction a.disabled {
+    display: none;
+}
+
+/* AUTO CONTROLS (START / STOP) */
+.bx-wrapper .bx-controls-auto {
+    text-align: center;
+}
+
+.bx-wrapper .bx-controls-auto .bx-start {
+    display: block;
+    text-indent: -9999px;
+    width: 10px;
+    height: 11px;
+    outline: 0;
+    background: url(../images/controls.png) -86px -11px no-repeat;
+    margin: 0 3px;
+}
+
+.bx-wrapper .bx-controls-auto .bx-start:hover, .bx-wrapper .bx-controls-auto .bx-start.active {
+    background-position: -86px 0;
+}
+
+.bx-wrapper .bx-controls-auto .bx-stop {
+    display: block;
+    text-indent: -9999px;
+    width: 9px;
+    height: 11px;
+    outline: 0;
+    background: url(../images/controls.png) -86px -44px no-repeat;
+    margin: 0 3px;
+}
+
+.bx-wrapper .bx-controls-auto .bx-stop:hover, .bx-wrapper .bx-controls-auto .bx-stop.active {
+    background-position: -86px -33px;
+}
+
+/* PAGER WITH AUTO-CONTROLS HYBRID LAYOUT */
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {
+    text-align: left;
+    width: 80%;
+}
+
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto {
+    right: 0;
+    width: 35px;
+}
+
+/* IMAGE CAPTIONS */
+.bx-wrapper .bx-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #666 \9;
+    background: rgba(80, 80, 80, 0.75);
+    width: 100%;
+}
+
+.bx-wrapper .bx-caption span {
+    color: #fff;
+    font-family: Arial;
+    display: block;
+    font-size: .85em;
+    padding: 10px;
+}
+
+/* fixes */
+div.bx-pager .imd-img-overlay {
+    display: none;
+}
+
+/* Ultimate / BSF - custom changes for gallery*/
+.bx-pager {
+    float: left;
+    display: block;
+    width: 100%;
+    position: relative;
+    clear: both;
+    z-index: 99;
+}
+
+.bx-pager a.bxslider-item {
+    float: left;
+    border: 1px solid #eeeeee;
+    padding: 7px;
+    border-top: 0;
+}
+
+.bx-pager a.bxslider-item {
+    float: left;
+}
+
+.bx-wrapper .bx-viewport ul {
+    margin: 0;
+}
+
+.imedica_image_gallery .bx-wrapper .bx-viewport {
+    height: auto !important;
+}
+
+.bx-wrapper .bx-controls-direction a {
+    z-index: 99;
+}

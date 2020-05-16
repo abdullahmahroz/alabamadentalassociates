@@ -1,0 +1,21 @@
+/*
+Theme Name: iMedica
+ | Shared by VestaThemes.com
+Theme URI: https://brainstormforce.com/demos/imedica/
+Author: Brainstorm Force
+Author URI: http://themeforest.net/user/brainstormforce
+Description: iMedica is probably the most comprehensive & feature rich WordPress theme that's made for medical organizations. Responsive code, retina ready graphics, lightweight framework and very flexible structure makes it outstanding.
+Version: 3.1.8
+License: Themeforest Split Licence
+License URI: - http://themeforest.net/licenses/terms/regular
+Text Domain: imedica
+Tags: white
+----------------------------------------------------------------*/
+
+/* New Fixes */
+
+@media(min-width: 768px){
+    .header-default .site-heading a img {
+        max-width: 35%;
+    }
+}

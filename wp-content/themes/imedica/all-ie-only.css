@@ -1,0 +1,28 @@
+.img-responsive,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 100%;
+}
+
+.img-thumbnail {
+    width: 100%;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin-top: 1px;
+}
+
+.radio input[type="radio"],
+.radio-inline input[type="radio"],
+.checkbox input[type="checkbox"],
+.checkbox-inline input[type="checkbox"] {
+    margin-top: 4px
+}
+
+.carousel-indicators li {
+    background-color: #000;
+}
+
+p {
+    font-size: 20px !important;
+}

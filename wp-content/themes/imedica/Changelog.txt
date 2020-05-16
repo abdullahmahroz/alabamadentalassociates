@@ -1,0 +1,294 @@
+v3.1.8 - 04-Aug-2016
+# Improvement: Added option to make the sticky header of same width as box width.
+# Improvement: Social icons in top header now supports 4 custom icons and a full list of FontAwesome icons.
+# Improvement: FontAwesome updated to latest version 4.6.3.
+# Fix: Instagram option in social media options not working.
+# Fix: code before </head> tag was being added after opening of body tag.
+
+v3.1.7 - 23-June-2016
+# Improvement: Added Read more link to Blog medium layout.
+# Fix: Updated the facebok share link in post share box.
+# Updated Brainstorm Updater
+
+v3.1.6 - 11-June-2016
+# Fix: bundled plugins were not being shown.
+
+v3.1.5 - 10-June-2016
+# Fix: Accordion title getting cropped if the title is large.
+# Fix: Retina JS to latest v1.4.0 to fix retina related issues.
+# Fix: Blog Grid layout 3 had broken layout on search page when there are no results to display.
+# Updated brainstorm updater to latest version.
+
+v3.1.4 - 06-May-2016
+# New: Instagram and Pinterest options in top header social media.
+# Fix: PHP errors when theme is updated to a newer version.
+# Updated brainstorm updater to a newer version.
+
+v3.1.3 - 04-May-2016
+# New: New filter in excerpt to hard limit number of words.
+# Fix: occasional fatal error in the admin panel, updated brainstorm updater.
+# Fix: Styling of sticky post.
+
+v3.1.2 - 28-Apr-2016
+# Fix: updated to brainstorm plugin updater.
+
+v3.1.1 - 21-Apr-2016
+# New: Option to add Pinterest in social icons widget.
+# Fix: Tabs element not working after WordPress 4.5
+# Fix: PHP warning in iMedica social widget on first time demo import.
+
+v3.1 - 19-Apr-2016
+# Improvement: PHP7 Compatibility.
+# Improvement: WordPress 4.5 Compatibility.
+# Improvement: All the functions are now overridable from the child theme.
+# Fix: Custom 404-page option now loads all the required from VC and Ultimate Addons.
+# Fix: Alignment of search field irrespective of font size.
+# Fix: Page title bar displaying "Archive" on categories and tags for custom post type will now show the name of the Category or Tag.
+# Fix: Page title bar not displaying any title on some custom post types.
+# Fix: Background color was not working in iTitle.
+# Fix: Border was not working in CTA style 1.
+# Fix: Admin menu management alignment problems
+# Fix: Top header text color and hover color not being applied to Custom HTML section.
+# Fix: Disabled load more button on the single post.
+# Fix: Load more button displayed even when no more posts are available.
+
+v3.0.4.3 - 8-Feb-2016
+# Improvement: Design options for all the Visual Composer elements in iMedica.
+# Improvement: Added instagram to social media widget.
+# Fix: Brainstorm Updater improvements and bug fixes.
+# Fix: Custom social link in top header not visible in mobile menu.
+# Fix: Full screen search redirecting to 404 page for iPad and other touch devices.
+# Fix: Long titles overflowing in feature box for Firefox.
+# Fix: Link-height for the date field.
+
+v3.0.4.2 - 8-Feb-2016
+# Fix: styling issues when lists, strong tags were added in infobox and feature box.
+# Fix: Greek letters not properly visible in the excerpt of recent posts element.
+# Fix: transparent header text color being persistant even after the transparent header mode was turned off.
+# Fix: the logo image overflowing out of the wrapper in firefox, when the logo has large dimensions.
+# Fix: search form not properly aligned on 404 page.
+# Fix: Image URLs breaking after upgrading ultimate to version 3.15.1
+
+v3.0.4.1 - 29-Dec-2015 
+# Fixed bug in showing product list in brainstorm updater.
+
+v3.0.4 - 21-Dec-2015 
+# Improvement: Support for Google font subsets for latin, cyrillic etc.
+# Improvement: Only one H1 tag from post title will be available on pages.
+# Improvement: Full RTL support.
+# Fix: Menu resizing after whole page loads.
+# Fix: iMedica mage gallery not working inside VC tabs.
+# Fix: VC single image not showing circular images properly, And custom sizes not working.
+# Fix: Menu column title not visible for mobile devices for mega menus.
+# Fix: Normalized styling of some missing input fields.
+# Fix: Mobile menu requires two clicks.
+# Fix: PHP error when two or more twitter VC elements are used on a page. 
+# Fix: Mobile menu requires two clicks on iOS devices.
+# Fix: PHP error on some servers appearing because the extensions were loaded improperly.
+# Update: updated Fontawesome to latest version 4.5
+
+v3.0.3 - 05-Nov-2015
+# Fix: Styles in VC single image not working.
+
+v3.0.2 - 05-Nov-2015
+# Improvement: Link can be applied to team member picture.
+# Improvement: updated redux framework in iMedica options panel.
+# Fix: Single image supports all the new options from visual composer.
+# Fix: Padding fix for footer area in boxed layout.
+# Fix: color options in Visual Composer tabs.
+# Fix: Default options were not working on some Visual Composer elements.
+# Fix: Warning messages in info box VC element.
+# Fix: Two H1 Tags on the pages.
+# Fix: Image style and sizes does not appear in firefox for external link images in VC single image.
+# Fix: PHP warning in popular posts VC element.
+# Fix: Warnings in twitter vc element.
+# Several other minor bug fixes
+
+v3.0.1 - 17-oct-2015
+# Fix: CSS for over the slider class on homepage boxes.
+# Fix: Reverted styling for recent posts VC element.
+# Fix: broken author URL on single post when author has not entered website in his profile.
+# Improvement: used WordPress Http API instead of plain PHP functions to check if retina @2x images exist on server.
+
+v3.0 - 13-oct-2015
+# New: Layout option - Padded layout.
+# New: Now set page as a footer, So design footer using visual composer.
+# New: Demo import options for all the 9 new demos, make sure to update imedica core plugin to latest Version 3.0 as well.
+# New: Option to make scroll to top button rounded.
+# New: Option to set maximum height to sticky header.
+# New: Style in team member element.
+# New: Custom small footer options to add custom HTML, social links etc.
+# New: Search style for search icon in manu, iMedica options -> Manu -> Search Layout.
+# New: Option to set top and bottom margins for box layout.
+# New: Added schema tags for blog posts, Good for SEO!
+# New: Style options in testimonial element.
+# New: Shiny updates and extension installed in Brainstorm Updater.
+# Improvement: Transparent header now works in mobile layout.
+# Improvement: Rename Splash area as Hero Section.
+# Improvement: Responsive font sizes in the team member element.
+# Update: Retina.js to latest version 1.3.0
+# Update: FontAwesome to latest version 4.4
+# Update: Smoothscroll to latest version 1.4.0
+# Fix: Page options now work on blog page.
+# Fix: Custom CSS and Googole Fonts not working in page Hero Section.
+# Fix: Accordion element animation not smooth.
+# Fix: Equal top and bottom height in footer.
+# Fix: mailto and tel links to imedica address widget.
+# Fix: Mailchimp subscribe form CSS fixes for newer version.
+# Fix: Carosuel icons in arrow fixed.
+# Fix: Default values not woring in some VC elements.
+# Fix: Many fixes for IE9.
+
+v2.0.5 - 4-Sep-2015
+# Fix: formatting issues in button element.
+# Fix: font from testimonial element not working.
+# Fix: margin-bottom issue on popular posts VC element
+# Fix: removed spacing before read more on popular posts element.
+# Fix: hidden post thumb when the option is selected to hide it.
+# Fix: spacing before read more link in recent posts element.
+# Fix: iMedica Populer Post - The Post title color is not working in front end.
+# Fix: Team member element border issues
+# Fix: iMedica feature Box - style 2,style 3- Extra P tag issue.
+# Fix: PHP warning displayed in frontend.
+# Fix: iMedica Info Box - Style 1 -  Not displaying at front end.
+# Fix: iMedica Feature Box - The default color of the fold is black, changed it to take the darker shade of theme color.
+# Fix: accordion custom colors not working.
+# Fix: Hover colors not working in featurebox.
+# Fix: icon hover color not working in VC Tour element.
+
+v2.0.4.1 - 21-Aug-2015
+# Fix: WordPress 4.3 compatibility fixes for iMedica VC elements.
+
+v2.0.4 - 20-Aug-2015
+# Fix: WordPress 4.3 compatibility in iMedica widgets.
+# New: New filter to change the word count in default word count in the excerpt.
+# Fix: improved structure of breadcrumb on page title.
+
+v2.0.3 - 5-Aug-2015
+# Fix: Transparent Header adding empty space below on the page on FireFox.
+# Fix: Image uploader in Visual Composer elements custom image size option.
+# Fix: Single image element, custom size option now working.
+# Fix: updates to Brainstormforce Updater.
+
+v2.0.2 - 24-Jul-2015
+# Fix: Some ranslation strings with proper localization
+# Fix: minor updates to Brainstorm Updater
+
+v2.0.1 - 23-Jul-2015
+# Fix: min-height not working in style 3 of feature box.
+# Fix: iMedica VC elements fixes for Visual Composer v4.6
+		- Image Gallery
+		- Testimonial
+		- Team Member
+		- iTitle
+		- Price List
+		- Buttons
+		- Call to action
+		- Price Tables
+		- Info Box
+		- Feature Box
+
+v2.0.0 - 9-Jul-2015
+# New: All new Theme/plugin Updater.
+# Improvement: Removed all the plugins from theme package.
+# New: Welcome Screen after installing iMedica.
+# New: plugin actiation/installation nags.
+# New: option to select custom currency format in iMedica price table.
+# New: option to add custom link to team member element.
+# Update: bundled plugin iMedica core has been updated.
+# Fix: Various multisite compatibility issues.
+# Fix: iMedica twitter widget messing up text from greek language.
+# Fix: link option in single image element in Visual Composer.
+# Fix: Fixed target tag in the imedica buttom element.
+
+v1.4.1 - 18-Jun-2015
+# New: option to enable/disable comments view in recent posts and popular post VC elements.
+# New: option to enable or disable search in default header.
+# New: shortcode support inside feature boxes.
+# New: option to add border radius to team member image.
+# New: post link to featured images on blog page.
+# Update bundled plugin - Visual Composer to latest version v4.5.3
+# Update bundled Plugin - Revolution slider to latest version - 4.6.93
+# Update bundled plugin - Ultimate Addons to latest version - v 3.12.0
+# Fix: soundhound player in audio post will be visible in blog/archive pages.
+# Fix: comments form sometimes having smaller width.
+# Fix: php notice in recent posts and popular posts VC elements.
+# Fix: iPad friendly menus.
+# Fix: path of slick gif loader 404 on all pages.
+# Fix: Enable page title bar on blog home page.
+# Fix: black color appearing on sticky header on blog page.
+
+v1.4.0 - 27-May-2015
+# Removed import functionality from theme and shifted it to "iMedica Core" plugin.
+# Improvements in dummy data import functionality.
+# Improvement in VC single image shortcode. Now uses new image param.
+# Added New landing page and a slider in demo data.
+# Update bundled plugin - Ultimate Addons to latest version - v 3.11.1
+# Update bundled plugin - Visual Composer to latest version v4.5.2
+# Update bundled plugin - iMedica core to latest version v2.0
+# Fix: Translation issues with backend and frontend.
+# Fix: Menu overflowing out of page wrapper in box layout.
+# Fix: Removed autocapitalization in menu.
+# Fix: plus and minus icons in accordion element.
+
+v1.3.2 - 29-May-2015
+# Update bundled plugin - Timetable Responsive Schedule For WordPress - v 3.3
+# Update bundled plugin - Visual Composer to latest version v4.5.1
+# Update bundled Plugin - Revolution slider to latest version - 4.6.92
+# Updated imedica child theme to v1.1
+# Fix: Bug with modern style page title bar, enable or disable from page options
+
+v1.3.1 - 22-May-2015
+# Update Redux Framework to v3.5.4.
+# Update TGM plugin activation class to v2.4.1.
+# Update bundled plugin Visual Composer to latest version v4.4.4.
+# Update FontAwesome to latest version v4.3.0.
+# Improved retina mode, retina @2x images will be automatically generated.
+# Moved function to defer parsing JavaScript to child theme.
+# Fix: Some iMedica options not saving in admin panel.
+# Fix: height of sticky header.
+# Fix: Links opening in new tab for some Visual Composer elements.
+# Fix: Custom header not working on blog posts.
+
+v1.3.0 - 9-Apr-2015
+# Performance optimization, reduced memory consumption by removing LESS compiler.
+# New: options to choose breadcrumb and title to be displayed or not on title bar.
+# New: option in sticky header to select different logo, background, text color.
+# New: option to select whether to load the CSS in head or in separate files.
+# Fix: Front Editor bug in team member element.
+# Fix: height calculation of sticky menu.
+# fix: errors while loading CSS files on some servers .
+# fix: CSS fixes in mega menu, iMedica gallery.
+# Update bundled plugin - Ultimate Addons to latest version - v 3.10
+# Update bundled Plugin - Revolution slider to latest version - 4.6.5
+# Update bundled Plugin - Timetable Responsive Schedule For WordPress to latest version - 3.2
+# Update Bundled Plugin - iMedica Core to latest version 1.1 Fixing errors for some servers.
+
+v1.2.0 - 20-Mar-2015
+# Improved dummy data functionality, now the your complete site will be set up with only one click!
+# Added typography options for call to action element.
+# Fix: CSS not loading on some servers.
+# Fix: Sticky header option in iMedica options not working.
+# Fix: CSS applied to #page fixed.
+# Fix: links now working in team member element.
+
+v1.1.0 - 20-Feb-2015
+# Fix: error - Cannot use object of type WP_Error
+# FIX: related posts showing same date
+# Fix: default capitalization in element iTitle
+# FIX: Widget - iMedica menu, current menu item style bug
+# Fix: transparent header on single pages affecting archive pages
+# Update bundled plugin - One-Page Navigation
+# Update bundled plugin - Ultimate Addons to latest version v3.9.4
+# Update bundled plugin - Visual Composer to latest version v4.4.3
+# Update dummy data to latest demo site
+
+v1.0.1  - 10-Feb-2015
+# Allow html in footer credits
+# Fix: custom scripts option
+# FIX: sub-menu current menu font color
+# Fix: Top header email address link fix
+# Fix: Fix 404 page search form
+
+v1.0 - 10-Feb-2015
+# initial release

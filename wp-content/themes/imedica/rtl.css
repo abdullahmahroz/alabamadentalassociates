@@ -1,0 +1,310 @@
+/*
+Theme Name: iMedica | Shared by VestaThemes.com
+
+Adding support for language written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+http://codex.wordpress.org/Right_to_Left_Language_Support
+
+*/
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+/* Header */
+.rtl .site-heading {
+	float: right;
+}
+.rtl .header-default .site-navigation .nav-menu {
+    text-align: right;
+    float: left;
+}
+.rtl .site-header-main #primary-navigation ul li ul.sub-menu li a{
+	text-align: right;
+}
+.rtl .pull-left {
+    float: right!important;
+}
+.rtl .pull-right {
+    float: left !important;
+}
+.rtl ul.top-social-link{
+	text-align: left;
+}
+.rtl ul.top-social-link li:last-child a {
+    padding-left: 0;
+    padding-right: 9px;
+}
+.rtl .imd-contact-info i {
+    padding-left: 5px;
+}
+.rtl .imd-contact-info-wrap ul.imd-contact-info li {
+    padding: 0 3px 0 15px;
+}
+
+/* Sticky Header */
+.imedica_sticky_header .navbar-inverse.header-fixed .site-title {
+	float: right;
+}
+
+/* Body */
+.rtl caption, td, th {
+    text-align: right;
+}
+.rtl .comment-content ol, 
+.rtl .comment-content ul, 
+.rtl .entry-content ol, 
+.rtl .entry-content ul, 
+.rtl .post-content ol, 
+.rtl .post-content ul, 
+.rtl article .entry-summary ol, 
+.rtl article .entry-summary ul {
+    padding-right: 20px;
+    padding-left: 0;
+}
+.rtl .ult_tabmenu.style1, .rtl .ult_tabmenu.style2 {
+    padding-right: 0px;
+}
+.rtl .left-icon .aio-icon-left .aio-icon, .left-icon .aio-icon-left .aio-icon-img {
+    margin-left: 15px;
+    margin-right: auto;
+    backface-visibility: initial;
+    transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+}
+.rtl .wpb_accordion_section.group .wpb_accordion_header a {
+	margin-right: 2em;
+	margin-left: auto;
+}
+.rtl .uavc-list-content .aio-icon {
+	margin-left: 10px;
+}
+.rtl .service-icon-container {
+    float: right;
+    margin-left: 10px;
+    margin-right: auto;
+    padding-right: 0;
+}
+.rtl .default-icon .aio-icon-default .aio-icon, 
+.rtl .default-icon .aio-icon-default .aio-icon-img {
+    margin-right: auto;
+    margin-left: 15px;
+}
+.rtl .col-futurebox.Style5 .feature-right-block {
+    padding-left: auto;
+    padding-right: 25px;
+}
+.rtl .ult_ivan_button.icon-before .text-btn {
+    padding-left: 10px;
+}
+.rtl .ult_ivan_button.icon-after .text-btn {
+    padding-right: 10px;
+}
+.rtl .ult_ivan_button.icon-after .icon-simple {
+    padding: 0 0px;
+}
+.rtl .ult_ivan_button.icon-before .icon-simple {
+    padding: 0 0px;
+}
+
+.rtl .ult_ivan_button.icon-before .icon-simple .aio-icon.circle{
+	margin-right: 22px;
+}
+.rtl .ult_ivan_button.icon-after .icon-simple .aio-icon.circle{
+	margin-left: 22px;
+}
+.rtl h3.wpb_accordion_header.ui-accordion-header.ui-accordion-icons i.accrdn-icon{
+	transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    backface-visibility: initial;
+}
+.rtl .wpb_accordion .wpb_accordion_wrapper .ui-state-active .ui-icon, 
+.rtl .wpb_accordion .wpb_accordion_wrapper .ui-state-default .ui-icon{
+    left:.7em;
+    right: auto;
+}
+.rtl .recent-post-item .post-date {
+    margin-left: 15px;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 8px;
+}
+.rtl .blog-medium-image-wrapper .blog-medium-post-img{
+    float: right;
+}
+.rtl .post-thumb {
+    text-align: right;
+}
+.rtl .imedica-btn-wrapper .imedica-btn.imedica-btn-outline {
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+/* Footer */
+.rtl .site-footer .imd_address .icon-wrap, .rtl .widget-address .icon-wrap{
+    float: right;
+}
+.rtl .site-footer .address-icons{
+	margin-right: auto;
+	margin-left: 16px;
+}
+.rtl .imedica-footer-area .twitter-tweet i{
+	float: right;    
+	text-align: left;
+    transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+}
+.rtl .site-footer .widget-social-icon{
+	margin: 0 0px 0 20px;
+}
+.rtl .imd-scroll-top {
+	left: 30px;
+	right: auto;
+}
+.rtl .widget-area ul li > a:before, 
+.rtl .recentcomments a:before {
+    margin-right: auto;
+    margin-left: 10px;
+    transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+}
+.rtl #secondary ul li.recentcomments > a {
+    padding-left: auto !important;
+    padding-right: 30px !important;
+}
+
+.rtl .recent-post-thumbnail + .recent-post-title{
+    width: 100%;
+}
+.rtl .recent-post-thumbnail {
+    float: right;
+}
+
+ul.ult_tabmenu.style1.Style_5 span.ult_tab_main {
+    left: auto;
+    right: 50%;
+    transform: translateX(50%);
+    -ms-transform: translateX(50%);
+    -webkit-transform: translateX(50%);
+}
+.rtl .imd-price-list-icon-wrap {
+    margin-left: .6em;
+    margin-right: auto;
+    transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+}
+.rtl span.imd-pricelist-item-price {
+    float: left;
+}
+.rtl nav.nav-single {
+    text-align: left;
+}
+.rtl .nav-single .nav-previous, 
+.rtl .nav-single .nav-next {
+    transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+}
+.rtl .imedica-slideshow-gallery .slick-next:before {
+    content: "\f053";
+}
+.rtl .imedica-slideshow-gallery .slick-prev:before {
+    content: "\f054";
+}
+.rtl .imedica-sharing-title,
+.rtl .post-author-avatar, 
+.rtl .related-post-thumbnail {
+    float: right;   
+}
+.rtl .imedica-pagination a.inactive, 
+.rtl .imedica-pagination a.paginate-next, 
+.rtl .imedica-pagination a.paginate-prev, 
+.rtl .imedica-pagination a.paginate-last, 
+.rtl .imedica-pagination a.paginate-first, 
+.rtl .imedica-pagination a > span,
+.rtl .imedica-pagination span.current, 
+.rtl .imedica-pagination > span{
+    float: right;
+    transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+
+.rtl .blog-default-wrapper .read-more-link a.read-more-link, 
+.rtl .blog-default-wrapper .search .read-more-link a.read-more-link, 
+.rtl .rtl .blog-default-wrapper .archive .read-more-link a.read-more-link, 
+.rtl .blog-default-wrapper .tag .read-more-link a.read-more-link, 
+.rtl .blog-medium-image-wrapper .read-more-link a.read-more-link, 
+.rtl .blog-medium-image-wrapper .search .read-more-link a.read-more-link, 
+.rtl .blog-medium-image-wrapper .archive .read-more-link a.read-more-link {
+    padding-left: 40px;
+    padding-right: 0;
+}
+.rtl blockquote:after, .rtl .price_list_name:after {
+    left: auto;
+    right: 0px;
+}
+
+@media screen and (min-width: 783px) {
+	.rtl .primary-navigation ul ul ul {
+	    left: auto;
+	    right: 100%;
+	}
+	.primary-navigation {
+		float: left;
+	}
+    .rtl h3.large-search-text {
+        text-align: right;
+    }
+    .rtl a.search-close {
+        left: 50px;
+        right: auto;
+    }
+    .rtl .search-large input.imd-search{
+        text-align: right;
+    }
+    .rtl .search-large button.button.search-submit{
+        float: right;
+        transform: translateY(100%);
+        -o-transform: translateY(100%);
+        -ms-transform: translateY(100%);
+        -moz-transform: translateY(100%);
+        -webkit-transform: translateY(100%);
+        padding: .5em 1em .5em;
+    }
+
+    .rtl .header-layout2 .header-logo-left {
+        float: right;
+        text-align: right;
+    }
+    .rtl .header-layout2 .main-search.header-search{
+        left: 15px;
+        right: auto;
+        text-align: left;
+    }
+    .rtl .header-search button.search-submit {
+        margin-right: -4px;.
+        margin-left: auto;
+    }
+}

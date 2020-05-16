@@ -1,0 +1,560 @@
+<?php
+add_action( 'vc_before_init', 'imedica_call_to_action_init' );
+add_action( "wp_enqueue_scripts", "imedica_call_to_action_scripts", 100 );
+
+ // Added by Dinesh Chouhan for Social-Icon in Team style-2
+
+function imedica_call_to_action_scripts() {
+	wp_enqueue_script( 'ultimate-vc-params' );
+}
+
+function imedica_call_to_action_init() {
+	if ( class_exists( 'WPBakeryShortCode' ) ) {
+		class WPBakeryShortCode_imedica_call_to_action extends WPBakeryShortCode {
+		}
+	}
+
+	vc_map( array(
+		"name"        => __( "Call To Action", 'imedica' ),
+		"description" => __( "Catch visitors attention with CTA Block", 'imedica' ),
+		"base"        => "imedica_call_to_action",
+		"icon"        => get_template_directory_uri() . "/vc_templates/images/call_to_action.png",
+		"class"       => "imd_call_to_action",
+		"controls"    => "full",
+		"category"    => __( 'iMedica', 'imedica' ),
+		"params"      => array(
+			array(
+				"type"        => "dropdown",
+				"holder"      => "",
+				"class"       => "",
+				"heading"     => __( "Layout", 'imedica' ),
+				"param_name"  => "cta_layout",
+				"value"       => array(
+					"Full Width" => "fullwidth",
+					"Boxed"      => "boxed",
+				),
+				"description" => __( "Select Call to Action layout.", 'imedica' )
+			),
+			array(
+				'type'       => 'radio_image_box',
+				'heading'    => __( 'Shadow', 'imedica' ),
+				'param_name' => 'bg_shadow',
+				'value'      => '',
+				'options'    => array(
+					'cta-shadow1' => get_stylesheet_directory_uri() . '/vc_templates/images/cta-shadow1-thumb.png',
+					'cta-shadow2' => get_stylesheet_directory_uri() . '/vc_templates/images/cta-shadow2-thumb.png',
+				),
+				'css'        => array(
+					'width'             => '175px',
+					'height'            => '30px',
+					'background-repeat' => 'no-repeat !important',
+					'background-size'   => '100% !important'
+				),
+				"dependency" => Array( "element" => "cta_layout", "value" => 'boxed' ),
+			),
+			array(
+				"type"        => "dropdown",
+				"holder"      => "",
+				"class"       => "",
+				"heading"     => __( "Select Style", 'imedica' ),
+				"param_name"  => "view_style",
+				"value"       => array(
+					"Style 1" => "style1",
+					"Style 2" => "style2",
+				),
+				"description" => __( "Select Style for Call to Action.", 'imedica' )
+			),
+			array(
+				"type"       => "textfield",
+				"holder"     => "div",
+				"class"      => "",
+				"heading"    => __( "Title", 'imedica' ),
+				"param_name" => "title",
+				"value"      => __( "", 'imedica' ),
+				"dependency" => Array( "element" => "view_style", "value" => 'style1' ),
+			),
+			array(
+				"type"        => "textarea_html",
+				"holder"      => "",
+				"class"       => "",
+				"heading"     => __( "Description", 'imedica' ),
+				"param_name"  => "content",
+				"value"       => __( "", 'imedica' ),
+				"description" => __( "Provide the Description for Call to Action.", 'imedica' )
+			),
+			array(
+					'type'        => 'textfield',
+					'heading'     => __( 'Extra Class Name', 'imedica' ),
+					'param_name'  => 'el_class',
+					'description' => ''
+			),
+			// Typography
+			array(
+				"type"             => "ult_param_heading",
+				"param_name"       => "title_typography_heading",
+				"text"             => __( "Title Settings", "ultimate" ),
+				"value"            => "",
+				"class"            => "",
+				"group"            => "Typography",
+				'edit_field_class' => 'ult-param-heading-wrapper no-top-margin vc_column vc_col-sm-12',
+			),
+			array(
+				"type"       => "ultimate_google_fonts",
+				"heading"    => __( "Font Family", "imedica" ),
+				"param_name" => "title_font",
+				"description" => __( "Select the font of your choice. You can <a target='_blank' href='" . admin_url( 'admin.php?page=bsf-google-font-manager' ) . "'>add new in the collection here</a>.", "imedica" ),
+				"value"      => "",
+				"group"      => "Typography",
+				"dependency" => Array( "element" => "view_style", "value" => 'style1' ),
+			),
+			array(
+				"type"       => "ultimate_google_fonts_style",
+				"heading"    => __( "Font Style", "imedica" ),
+				"param_name" => "title_font_style",
+				"value"      => "",
+				"group"      => "Typography",
+				"dependency" => Array( "element" => "view_style", "value" => 'style1' ),
+			),
+			array(
+				"type"       => "ultimate_responsive",
+				"class"      => "",
+				"heading"    => __( "Font size", 'imedica' ),
+				"param_name" => "title_font_size",
+				"unit"       => "px",
+				"media"      => array(
+					__( "Desktop", "imedica" )          => '22',
+					__( "Tablet", "imedica" )           => '',
+					__( "Tablet Portrait", "imedica" )  => '',
+					__( "Mobile Landscape", "imedica" ) => '',
+					__( "Mobile", "imedica" )           => '',
+				),
+				"group"      => "Typography",
+				"dependency" => Array( "element" => "view_style", "value" => 'style1' ),
+			),
+			array(
+				"type"       => "ultimate_responsive",
+				"class"      => "",
+				"heading"    => __( "Line Height", 'imedica' ),
+				"param_name" => "title_font_line_height",
+				"unit"       => "px",
+				"media"      => array(
+					__( "Desktop", "imedica" )          => '28',
+					__( "Tablet", "imedica" )           => '',
+					__( "Tablet Portrait", "imedica" )  => '',
+					__( "Mobile Landscape", "imedica" ) => '',
+					__( "Mobile", "imedica" )           => '',
+				),
+				"group"      => "Typography",
+				"dependency" => Array( "element" => "view_style", "value" => 'style1' ),
+			),
+			array(
+				"type"       => "colorpicker",
+				"param_name" => "title_font_color",
+				"heading"    => __( "Color", "imedica" ),
+				"group"      => "Typography",
+				"dependency" => Array( "element" => "view_style", "value" => 'style1' ),
+			),
+			array(
+				"type"             => "ult_param_heading",
+				"param_name"       => "desc_text_typography_heading",
+				"text"             => __( "Description settings", "ultimate" ),
+				"value"            => "",
+				"class"            => "",
+				"group"            => "Typography",
+				'edit_field_class' => 'ult-param-heading-wrapper vc_column vc_col-sm-12',
+			),
+			array(
+				"type"       => "ultimate_google_fonts",
+				"heading"    => __( "Font Family", "imedica" ),
+				"param_name" => "desc_font",
+				"description" => __( "Select the font of your choice. You can <a target='_blank' href='" . admin_url( 'admin.php?page=bsf-google-font-manager' ) . "'>add new in the collection here</a>.", "imedica" ),
+				"value"      => "",
+				"group"      => "Typography"
+			),
+			array(
+				"type"       => "ultimate_google_fonts_style",
+				"heading"    => __( "Font Style", "imedica" ),
+				"param_name" => "desc_font_style",
+				"value"      => "",
+				"group"      => "Typography"
+			),
+			array(
+				"type"       => "ultimate_responsive",
+				"class"      => "",
+				"heading"    => __( "Font Size", 'imedica' ),
+				"param_name" => "desc_font_size",
+				"unit"       => "px",
+				"media"      => array(
+					__( "Desktop", "imedica" )          => '22',
+					__( "Tablet", "imedica" )           => '',
+					__( "Tablet Portrait", "imedica" )  => '',
+					__( "Mobile Landscape", "imedica" ) => '',
+					__( "Mobile", "imedica" )           => '',
+				),
+				"group"      => "Typography",
+			),
+			array(
+				"type"       => "ultimate_responsive",
+				"class"      => "",
+				"heading"    => __( "Line Height", 'imedica' ),
+				"param_name" => "desc_font_line_height",
+				"unit"       => "px",
+				"media"      => array(
+					__( "Desktop", "imedica" )          => '28',
+					__( "Tablet", "imedica" )           => '',
+					__( "Tablet Portrait", "imedica" )  => '',
+					__( "Mobile Landscape", "imedica" ) => '',
+					__( "Mobile", "imedica" )           => '',
+				),
+				"group"      => "Typography",
+			),
+			array(
+				"type"       => "colorpicker",
+				"param_name" => "desc_font_color",
+				"heading"    => __( "Color", "imedica" ),
+				"group"      => "Typography"
+			),
+			array(
+				"type"       => "dropdown",
+				"holder"     => "",
+				"class"      => "",
+				"heading"    => __( "Alignment", 'imedica' ),
+				"param_name" => "desc_text_align",
+				"value"      => array(
+					__( "Center", "imedica" )  => "center",
+					__( "Left", "imedica" )    => "left",
+					__( "Right", "imedica" )   => "right",
+					__( "Justify", "imedica" ) => "justify",
+				),
+				"group"      => "Typography",
+				"dependency" => Array( "element" => "view_style", "value" => 'style2' ),
+			),
+
+			array(
+				"type"             => "ult_param_heading",
+				"param_name"       => "button_typography_heading",
+				"text"             => __( "Button Settings", "ultimate" ),
+				"value"            => "",
+				"class"            => "",
+				"group"            => "Typography",
+				'edit_field_class' => 'ult-param-heading-wrapper vc_column vc_col-sm-12',
+			),
+			array(
+				"type"       => "ultimate_google_fonts",
+				"heading"    => __( "Font Family", "imedica" ),
+				"param_name" => "btn_font",
+				"description" => __( "Select the font of your choice. You can <a target='_blank' href='" . admin_url( 'admin.php?page=bsf-google-font-manager' ) . "'>add new in the collection here</a>.", "imedica" ),
+				"value"      => "",
+				"group"      => "Typography"
+			),
+			array(
+				"type"       => "ultimate_google_fonts_style",
+				"heading"    => __( "Font Style", "imedica" ),
+				"param_name" => "btn_font_style",
+				"value"      => "",
+				"group"      => "Typography"
+			),
+			array(
+				"type"       => "ultimate_responsive",
+				"class"      => "",
+				"heading"    => __( "Font Size", 'imedica' ),
+				"param_name" => "btn_font_size",
+				"unit"       => "px",
+				"media"      => array(
+					__( "Desktop", "imedica" )          => '12',
+					__( "Tablet", "imedica" )           => '',
+					__( "Tablet Portrait", "imedica" )  => '',
+					__( "Mobile Landscape", "imedica" ) => '',
+					__( "Mobile", "imedica" )           => '',
+				),
+				"group"      => "Typography",
+			),
+			array(
+				"type"       => "ultimate_responsive",
+				"class"      => "",
+				"heading"    => __( "Line Height", 'imedica' ),
+				"param_name" => "btn_font_line_height",
+				"unit"       => "px",
+				"media"      => array(
+					__( "Desktop", "imedica" )          => '23',
+					__( "Tablet", "imedica" )           => '',
+					__( "Tablet Portrait", "imedica" )  => '',
+					__( "Mobile Landscape", "imedica" ) => '',
+					__( "Mobile", "imedica" )           => '',
+				),
+				"group"      => "Typography",
+			),
+			array(
+				"type"        => "colorpicker",
+				"class"       => "",
+				"heading"     => __( "Text Color", "imedica" ),
+				"param_name"  => "btn_color",
+				"value"       => "",
+				"group"      => "Typography",
+				"description" => __( "Select Color for Title.", "imedica" ),
+			),
+			array(
+				"type"        => "colorpicker",
+				"class"       => "",
+				"heading"     => __( "Background Color", "imedica" ),
+				"param_name"  => "btn_color_bg",
+				"value"       => "",
+				"group"      => "Typography",
+				"description" => __( "Select Background Color for button.", "imedica" ),
+				"dependency"  => Array( "element" => "btn_btn_style", "value" => 'color' ),
+			),
+
+			//  Button Tab
+			array(
+				"type"        => "textfield",
+				"holder"      => "",
+				"class"       => "",
+				"heading"     => __( "Button Title", 'imedica' ),
+				"param_name"  => "btn_content",
+				"value"       => __( "", 'imedica' ),
+				"group"       => "Button",
+				"description" => __( "Provide the Title for the Button.", 'imedica' ),
+			),
+			array(
+				"type"        => "dropdown",
+				"holder"      => "",
+				"class"       => "",
+				"heading"     => __( "Button Size", 'imedica' ),
+				"param_name"  => "btn_button_size",
+				"value"       => array(
+					"Tiny"   => "tiny",
+					"Small"  => "small",
+					"Medium" => "medium",
+					"Large"  => "large",
+				),
+				"group"       => "Button",
+				"description" => __( "Select Button Size of Call to Action.", 'imedica' ),
+			),
+			array(
+				"type"        => "dropdown",
+				"holder"      => "",
+				"class"       => "",
+				"heading"     => __( "Button Style", 'imedica' ),
+				"param_name"  => "btn_btn_style",
+				"value"       => array(
+					"Default" => "color",
+					"Outline" => "outline",
+				),
+				"group"       => "Button",
+				"description" => __( "Select Button Style.", 'imedica' ),
+			),
+			array(
+				"type"        => "colorpicker",
+				"class"       => "",
+				"heading"     => __( "Text Hover Color", "imedica" ),
+				"param_name"  => "btn_outline_color_text_hover",
+				"value"       => "",
+				"group"       => "Button",
+				"description" => __( "Select Background Color for Button.", "imedica" ),
+				"dependency"  => Array( "element" => "btn_btn_style", "value" => 'outline' ),
+			),
+			array(
+				"type"        => "colorpicker",
+				"class"       => "",
+				"heading"     => __( "Border Color", "imedica" ),
+				"param_name"  => "btn_color_border",
+				"value"       => "",
+				"group"       => "Button",
+				"description" => __( "Select Border Color for button.", "imedica" ),
+				"dependency"  => Array( "element" => "btn_btn_style", "value" => 'outline' ),
+			),
+			array(
+				"type"        => "colorpicker",
+				"class"       => "",
+				"heading"     => __( "Background Color", "imedica" ),
+				"param_name"  => "btn_outline_color_bg",
+				"value"       => "",
+				"group"       => "Button",
+				"description" => __( "Select Background Hover Color for button.", "imedica" ),
+				"dependency"  => Array( "element" => "btn_btn_style", "value" => 'outline' ),
+			),
+			array(
+				"type"        => "colorpicker",
+				"class"       => "",
+				"heading"     => __( "Background Hover Color", "imedica" ),
+				"param_name"  => "btn_outline_color_bg_hover",
+				"value"       => "",
+				"group"       => "Button",
+				"description" => __( "Select Background Hover Color for button.", "imedica" ),
+				"dependency"  => Array( "element" => "btn_btn_style", "value" => 'outline' ),
+			),
+			array(
+				"type"        => "number",
+				"class"       => "",
+				"heading"     => __( "Border Thickness", "imedica" ),
+				"param_name"  => "btn_border_size",
+				"value"       => 1,
+				"min"         => 1,
+				"max"         => 10,
+				"suffix"      => "px",
+				"group"       => "Button",
+				"description" => __( "Thickness of the Button Border.", "imedica" ),
+			),
+			array(
+				"type"        => "icon_manager",
+				"class"       => "",
+				"heading"     => __( "Select Icon ", "imedica" ),
+				"param_name"  => "btn_icon",
+				"value"       => "",
+				"admin_label" => true,
+				"group"       => "Button",
+				"description" => __( "Click and select icon of your choice. If you can't find the one that suits for your purpose, you can <a href='".admin_url( 'admin.php?page=bsf-font-icon-manager' )."' target='_blank'>add new here</a>.", "imedica" ),
+			),
+			array(
+				"type"        => "colorpicker",
+				"class"       => "",
+				"heading"     => __( "Icon Color", "imedica" ),
+				"param_name"  => "btn_color_icon",
+				"value"       => "",
+				"group"       => "Button",
+				"description" => __( "Select Button Icon Color.", "imedica" ),
+			),
+			array(
+				"type"        => "colorpicker",
+				"class"       => "",
+				"heading"     => __( "Icon Hover Color", "imedica" ),
+				"param_name"  => "btn_hover_color_icon",
+				"value"       => "",
+				"group"       => "Button",
+				"description" => __( "Select Button Icon Hover Color.", "imedica" ),
+			),
+			array(
+				"type"       => "number",
+				"param_name" => "btn_icon_font_size",
+				"heading"    => __( "Icon size", "imedica" ),
+				"value"      => "",
+				"suffix"     => "px",
+				"group"      => "Button"
+			),
+			array(
+				"type"        => "dropdown",
+				"holder"      => "",
+				"class"       => "",
+				"heading"     => __( "Icon Direction", 'imedica' ),
+				"param_name"  => "btn_icon_direction",
+				"value"       => array(
+					"Left"  => "left",
+					"Right" => "right",
+				),
+				"group"       => "Button",
+				"description" => __( "Select icon Direction.", 'imedica' ),
+			),
+			array(
+				"type"        => "vc_link",
+				"class"       => "",
+				"heading"     => __( "Add Link", "imedica" ),
+				"param_name"  => "btn_btn_link",
+				"value"       => "",
+				"group"       => "Button",
+				"description" => __( "Provide the link that will be applied to this Button.", "imedica" ),
+			),
+			array(
+				"type"        => "dropdown",
+				"holder"      => "",
+				"class"       => "",
+				"heading"     => __( "Animation", 'imedica' ),
+				"param_name"  => "btn_animation_style",
+				"value"       => array(
+					"No Animation" => "no_animation",
+					"Animate"      => "animate",
+				),
+				"group"       => "Button",
+				"description" => __( "Like CSS3 Animations? We have an option for you!", 'imedica' ),
+			),
+			// Design
+			array(
+				"type"             => "ult_param_heading",
+				"param_name"       => "title_margin_spacing",
+				"text"             => __( "Title Padding", "ultimate" ),
+				"value"            => "",
+				"class"            => "",
+				"group"            => "Design",
+				'edit_field_class' => 'ult-param-heading-wrapper no-top-margin vc_column vc_col-sm-12',
+			),
+			array(
+				"type"       => "ultimate_spacing",
+				"heading"    => __( "Padding", "imedica" ),
+				"param_name" => "title_padding",
+				"mode"       => "padding",                    //  margin/padding
+				"unit"       => "px",                        //  [required] px,em,%,all     Default all
+				"positions"  => array(                   //  Also set 'defaults'
+					"Top"    => "",
+					"Bottom" => "",
+				),
+				"group"      => "Design",
+			),
+			array(
+				"type"             => "ult_param_heading",
+				"param_name"       => "button_margin_spacing",
+				"text"             => __( "Button Padding", "ultimate" ),
+				"value"            => "",
+				"class"            => "",
+				"group"            => "Design",
+				'edit_field_class' => 'ult-param-heading-wrapper vc_column vc_col-sm-12',
+			),
+			array(
+				"type"       => "ultimate_spacing",
+				"heading"    => __( "Padding", "imedica" ),
+				"param_name" => "button_padding",
+				"mode"       => "padding",                    //  margin/padding
+				"unit"       => "px",                        //  [required] px,em,%,all     Default all
+				"positions"  => array(                   //  Also set 'defaults'
+					"Top"    => "",
+					"Bottom" => "",
+				),
+				"group"      => "Design",
+			),
+			array(
+				"type"        => "colorpicker",
+				"class"       => "",
+				"heading"     => __( "Background Color", "imedica" ),
+				"param_name"  => "call_to_action_bg",
+				"value"       => "",
+				"group"       => "Design",
+				"description" => __( "Select Background Color for Call To Action.", "imedica" ),
+			),
+			array(
+				"type"        => "ult_switch",
+				"class"       => "",
+				"heading"     => __( "Highlight Border", "smile" ),
+				"param_name"  => "highlight_border",
+				"value"       => "on",
+				"default_set" => 'true',
+				"options"     => array(
+					"on" => array(
+						"label" => "Do you want to highlight border.",
+						"on"    => "Yes",
+						"off"   => "No",
+					),
+				),
+				"description" => __( "", "smile" ),
+				"group"       => "Design",
+			),
+			array(
+				"type"          => "ultimate_border",
+				"heading"       => __( "Border", "imedica" ),
+				"param_name"    => "box_border",
+				"unit"          => "px",
+				"positions"     => array(
+						"Left" => "5"
+					),
+				"enable_radius" => false,
+				"label_color"   => __( "Highlight Border Color", "imedica" ),
+				"dependency"    => Array( "element" => "highlight_border", "value" => "on" ),
+				"group"         => "Design",
+			),
+			array(
+				'type' => 'css_editor',
+				'heading' => __( 'CSS', 'imedica' ),
+				'param_name' => 'css_wrapper',
+				'edit_field_class' => 'vc_col-sm-12 vc_column no-vc-background no-vc-border creative_link_css_editor',
+				"group"      => __( "Design", "imedica" ),
+			),
+		)
+	) );
+}

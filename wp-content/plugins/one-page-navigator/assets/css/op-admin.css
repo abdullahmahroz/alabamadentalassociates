@@ -1,0 +1,53 @@
+/*On Off Checkbox Switch*/
+#opn-options .onoffswitch {display: inline-block;min-width: 100px;}.onoffswitch {position: relative;width: 95px;display: inline-block;float: left;margin-right: 15px;-webkit-user-select:none;-moz-user-select:none;-ms-user-select: none;}.onoffswitch-checkbox {display: none !important;}.onoffswitch-label {display: block;overflow: hidden;cursor: pointer;border: 0px solid #999999;border-radius: 0px;}.onoffswitch-inner {width: 200%;margin-left: -100%;-moz-transition: margin 0.3s ease-in 0s;-webkit-transition: margin 0.3s ease-in 0s;-o-transition: margin 0.3s ease-in 0s;transition: margin 0.3s ease-in 0s;}.rtl .onoffswitch-inner{margin: 0;}.rtl .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {margin-right: -100%;margin-left:auto;}.onoffswitch-inner > div {float: left;position: relative;width: 50%;height: 24px;padding: 0;line-height: 24px;font-size: 12px;color: white;font-weight: bold;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}.onoffswitch-inner .onoffswitch-active {padding-left: 15px;background-color: #CCCCCC;color: #FFFFFF;}.onoffswitch-inner .onoffswitch-inactive {padding-right: 15px;background-color: #CCCCCC;color: #FFFFFF;text-align: right;}.onoffswitch-switch {/*width: 50px;*/width:35px;margin: 0px;text-align: center;border: 0px solid #999999;border-radius: 0px;position: absolute;top: 0;bottom: 0;}.onoffswitch-active .onoffswitch-switch {background: #3F9CC7;left: 0;}.onoffswitch-inactive .onoffswitch-switch {background: #7D7D7D;right: 0;}.onoffswitch-active .onoffswitch-switch:before {content: " ";position: absolute;top: 0;/*left: 50px;*/left:35px;border-style: solid;border-color: #3F9CC7 transparent transparent #3F9CC7;/*border-width: 12px 8px;*/border-width: 15px;}.onoffswitch-inactive .onoffswitch-switch:before {content: " ";position: absolute;top: 0;/*right: 50px;*/right:35px;border-style: solid;border-color: transparent #7D7D7D #7D7D7D transparent;/*border-width: 12px 8px;*/border-width: 50px;}.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {margin-left: 0;}#ultimate-settings, #ultimate-modules, .ult-tabs{ display:none; }#ultimate-settings.active-tab, #ultimate-modules.active-tab, .ult-tabs.active-tab{ display:block; }.ult-badge {padding-bottom: 10px;height: 170px;width: 150px;position: absolute;border-radius: 3px;top: 0;right: 0;}div#msg > .updated, div#msg > .error { display:block !important;}div#msg {position: absolute;left: 0;top: 100px;max-width: 30%;}
+	
+/* Tip */
+.ult-help {
+    display: inline-block;
+    position: relative;
+   	margin-left: 10px;
+   	color: #999;
+}
+.ult-tip {
+    position: absolute;
+    bottom: 160%;
+    float: left;
+    min-width: 394px;
+    font-size: 12px;
+    transition: 0.3s all ease-in-out;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 5px 10px;
+    color: #777;
+    left: -7px;
+    display: inline-block;
+    opacity: 0;
+    border-radius: 5px;
+    visibility: hidden;
+    line-height: normal;
+}
+.ult-help:hover .ult-tip {
+    opacity: 1;
+    visibility: visible;
+    bottom: 110%;
+}
+.ult-tip:before {    
+    border-top: 4px solid #FFF;    
+    border-left: 4px solid transparent;    
+    border-right: 4px solid transparent;
+    left: 12px;
+    z-index: 99;
+}
+.ult-tip:before,
+.ult-tip:after {
+    content: "";
+    top: 100%;    
+    position: absolute;
+}
+.ult-tip:after {
+    border-top: 6px solid #CCC;    
+    border-left: 6px solid transparent;    
+    border-right: 6px solid transparent;
+    left: 10px;
+}

@@ -1,0 +1,148 @@
+@font-face {
+    font-family: 'imedica';
+    src: url('../fonts/imedica.eot');
+    src: url('../fonts/imedica.eot') format('embedded-opentype'),
+    url('../fonts/imedica.woff') format('woff'),
+    url('../fonts/imedica.ttf') format('truetype'),
+    url('../fonts/imedica.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.toplevel_page_imedica_options > div.wp-menu-image:before {
+    content: "\e600" !important;
+    font-family: 'imedica' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(359deg); }
+}
+
+@-moz-keyframes spin {
+    0% { -moz-transform: rotate(0deg); }
+    100% { -moz-transform: rotate(359deg); }
+}
+
+@-o-keyframes spin {
+    0% { -o-transform: rotate(0deg); }
+    100% { -o-transform: rotate(359deg); }
+}
+
+@-ms-keyframes spin {
+    0% { -ms-transform: rotate(0deg); }
+    100% { -ms-transform: rotate(359deg); }
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(359deg); }
+}
+
+span.imd-loading-icon > i.el-icon-refresh {
+    -moz-animation: spin 1s infinite linear;
+    -o-animation: spin 1s infinite linear;
+    -webkit-animation: spin 1s infinite linear;
+    animation: spin 1s infinite linear;
+	display: inline-block;
+	padding: 10px;
+}
+
+.ace_print-margin {
+    right: 0;
+    left: auto !important;
+}
+
+.imedica_import_notice {
+    margin-top: 15px;
+}
+
+img.ajax-import-loading-img.ajax-loading-img-bottom {
+    margin-left: 15px;
+    margin-top: 5px;
+}
+.imd_price_list{
+	background-image: url('../../../../vc_templates/images/price_list.png');
+	background-repeat: repeat!important; 
+}
+.imd_price_list_item{
+	background-image: url('../../../../vc_templates/images/price_list_item.png');
+	background-repeat: repeat!important; 
+}
+.imd_featured_box {
+	background-image: url('../../../../vc_templates/images/featured_box.png');
+	background-repeat: repeat!important; 
+}
+.imd_info_box {
+	background-image: url('../../../../vc_templates/images/info_box.png');
+	background-repeat: repeat!important; 
+}
+.imd_price_table {
+	background-image: url('../../../../vc_templates/images/price_table.png');
+	background-repeat: repeat!important; 	
+}
+.imd_ititle {
+	background-image: url('../../../../vc_templates/images/ititle.png');
+	background-repeat: repeat!important; 	
+}
+.imd_buttons {
+	background-image: url('../../../../vc_templates/images/buttons.png');
+	background-repeat: repeat!important; 	
+}
+.imd_call_to_action {
+	background-image: url('../../../../vc_templates/images/call_to_action.png');
+	background-repeat: repeat!important; 	
+}
+.imd_image_gallery {
+	background-image: url('../../../../vc_templates/images/image_gallery.png');
+	background-repeat: repeat!important; 	
+}
+.imd_popular_posts {
+	background-image: url('../../../../vc_templates/images/popular_posts.png');
+	background-repeat: repeat!important; 	
+}
+.imd_recent_posts {
+	background-image: url('../../../../vc_templates/images/recent_posts.png');
+	background-repeat: repeat!important; 	
+}
+.imd_twitter_feed {
+	background-image: url('../../../../vc_templates/images/twitter_feed.png');
+	background-repeat: repeat!important; 	
+}
+.imd_counter {
+	background-image: url('../../../../vc_templates/images/counter.png');
+	background-repeat: repeat!important; 	
+}
+.advanced_testimonials_block {
+	background-image: url('../../../../vc_templates/images/testimonials.png');
+	background-repeat: repeat!important; 	
+}
+.advanced_testimonials_block_item {
+    background-image: url('../../../../vc_templates/images/testimonial-item.png');
+    background-repeat: repeat!important;    
+}
+.imd_team_member {
+	background-image: url('../../../../vc_templates/images/team_member.png');
+	background-repeat: repeat!important; 	
+}
+/* imedica- iTitle */
+.ultimate-admin-field-bottom-margin {
+    margin-bottom: 20px;
+}
+.ultimate-admin-field-top-margin {
+    margin-top: 20px;
+}
+
+.redux-main h3 {
+    margin-top: 0.5em !important;
+    margin-bottom: 0.5em !important;
+    border-bottom: none !important;
+}

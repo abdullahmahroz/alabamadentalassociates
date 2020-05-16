@@ -1,0 +1,86 @@
+/* Accordion
+---------------------------------------------------------- */
+.vc_controls-visible {
+  opacity: 1 !important;
+  filter: alpha(opacity=100) !important;
+  visibility: visible;
+}
+#poststuff .wpb_vc_accordion > .vc_controls {
+  opacity: 1 !important;
+  filter: alpha(opacity=100) !important;
+  visibility: visible;
+  position: relative;
+  height: 23px;
+  margin: 18px 0 2px 0;
+  border: 1px dotted #e6e6e6;
+  border-bottom-width: 0;
+}
+#poststuff .wpb_vc_accordion > .wpb_element_wrapper {
+  padding: 0;
+  height: auto;
+  background: none;
+}
+#poststuff .wpb_vc_accordion .ui-icon {
+  background: transparent url('../images/controls-vc.png') no-repeat -16px -16px;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 19px;
+  top: 18px;
+  margin-top: 0;
+  display: block;
+}
+#poststuff .wpb_vc_accordion .ui-accordion-header {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  padding: 16px;
+  background: #FFFFFF;
+  margin-bottom: 3px;
+}
+#poststuff .wpb_vc_accordion .ui-accordion-header.ui-state-active {
+  background: #FFFFFF;
+  border: 1px solid transparent;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  margin-bottom: 0;
+}
+#poststuff .wpb_vc_accordion .ui-accordion-header.ui-state-active .ui-icon {
+  background-position: -16px -128px;
+}
+#poststuff .wpb_vc_accordion .tab-label {
+  margin-left: 23px;
+  color: #6f777d;
+  font-size: 14px;
+}
+#poststuff .wpb_vc_accordion .wpb_vc_accordion_tab.ui-accordion-content {
+  overflow: visible;
+  margin-bottom: 3px;
+}
+#poststuff .wpb_vc_accordion .tab_controls {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background: #FFFFFF;
+}
+#poststuff .wpb_vc_accordion .tab_controls .add_tab {
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+  cursor: pointer;
+  color: #b0b4b8;
+  padding: 16px;
+  position: relative;
+  width: 100%;
+  height: 16px;
+  display: block;
+}
+#poststuff .wpb_vc_accordion .tab_controls .add_tab .vc_icon {
+  background-position: -16px -16px;
+  position: absolute;
+  left: 19px;
+  top: 18px;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url('../images/controls-vc.png') -16px 0 no-repeat;
+}

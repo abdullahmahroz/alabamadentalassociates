@@ -1,0 +1,37 @@
+﻿v1.1.9
+- Fixed: PHP error message from admin page.
+
+v1.1.8
+- Updated Brainstorm updater to latest version.
+
+v1.1.7 
+- Fixed: Resources like Google Fonts / Icon manager not available
+
+v1.1.6
+- WP 4.5 compatible - JS issues
+
+v1.1.5
+- BSF Core 1.6 versioning, improvements and warnings
+
+v1.1.4
+– Removed double / duplicate classes from the list.
+– Fixed: double update notification
+– BSF core updated
+
+v1.1.3
+- Fixed: VC 4.8 compatibility
+- Fixed: Tooltip text color not working
+- BSF CORE: Shiny updates
+- Improvement: Added Includes & Excludes classes to prototype
+
+v1.1.0
+- Added: Theme support – Useful when VC row class is modified by theme author
+- Added: Exclude ID & Classes option to fix # (hash) link conflict
+- Added: Option to set active menu class
+- Improvement: One page navigator support for old VC users <= 4.4
+- Improvement: Made one page row ID setting depenedent with VC row ID
+- Improvement: Compatibility with Revolution Slider
+- Improvement: Increse z-index of OPN navigation bar to fix conflict with some themes
+
+v1.0.0 - 
+- Initial Release
